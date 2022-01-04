@@ -1,0 +1,24 @@
+.header, .nav{
+    background-color: rgb(18, 52, 63);
+}
+
+div.scrollmenu {
+
+    overflow: auto;
+    white-space: nowrap;
+    width: 70%;
+    margin: 0 auto;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    width: 30%;
+}
+
+div.scrollmenu a:hover {
+    background-color: #FFCE33;
+}
