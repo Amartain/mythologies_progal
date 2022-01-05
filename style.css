@@ -1,5 +1,6 @@
-.header, .nav{
+.container-fluid{
     background-color: rgb(18, 52, 63);
+    padding: 0.5% 15%;
 }
 
 div.scrollmenu {
@@ -16,9 +17,14 @@ div.scrollmenu a {
     text-align: center;
     padding: 14px;
     text-decoration: none;
-    width: 30%;
+    width: 20%;
 }
 
 div.scrollmenu a:hover {
     background-color: #FFCE33;
+}
+
+h1{
+    color: white;
+    font-size: 2rem;
 }
