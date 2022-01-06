@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <list id="feaf54eb-4085-47b2-9782-79dbf0ca3756" name="Changes by amartain" comment="index.html images" />
@@ -101,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641488710334</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="norse.html &amp; celtic.html updated to fit existing css">
+      <created>1641488875666</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1641488875666</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +130,7 @@
     <MESSAGE value="css elkezdve" />
     <MESSAGE value="index.html images" />
     <MESSAGE value="undercons.html added" />
-    <option name="LAST_COMMIT_MESSAGE" value="undercons.html added" />
+    <MESSAGE value="norse.html &amp; celtic.html updated to fit existing css" />
+    <option name="LAST_COMMIT_MESSAGE" value="norse.html &amp; celtic.html updated to fit existing css" />
   </component>
 </project>
