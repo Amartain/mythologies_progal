@@ -105,10 +105,6 @@ a  {
     color: white !important;
 }
 
-.nav-link-alt {
-    color: black !important;
-}
-
 
 .logo {
     font-family: 'baron_neueregular' !important;
@@ -116,19 +112,9 @@ a  {
 
 }
 
-.logo-alt {
-    font-family: 'baron_neueregular' !important;
-    color: black;
-
-}
-
 .btn {
     color: white !important;
 }
-.btn-alt {
-    color: black !important;
-}
-
 
 .backgroundc {
     background-color: rgb(18, 52, 63);
@@ -137,15 +123,7 @@ a  {
 
 .md-txt {
     font-size: 1.35rem;
-}
-
-.padding-lg {
     padding: 5rem 0px;
-}
-
-.padding-sm{
-    padding: 0.5rem 0px;
-    margin: 0 0 0 !important;
 }
 
 .bold {
@@ -229,69 +207,4 @@ td{
 
 .alt-bgc {
     background-color: rgb(252, 250, 245);
-    border-bottom:  0.0625rem solid rgb(211, 217, 219);
-    margin: 1rem 0;
-}
-
-.txt-black {
-    color: black;
-}
-
-h4 {
-    text-transform: uppercase;
-    color: rgb(211, 217, 219);
-}
-
-.bold-md {
-    font-weight: 550;
-;
-}
-
-.lg-img {
-    display: block;
-    margin: auto;
-    width: 100%;
-}
-
-.border-btm {
-    border-bottom:  0.0625rem solid rgb(211, 217, 219);
-    padding: 0.75rem;
-}
-
-.border {
-    border: 0.0625rem solid rgb(211, 217, 219);
-}
-
-.border-sides {
-    border-left: 0.0625rem solid rgb(211, 217, 219);
-    border-right: 0.0625rem solid rgb(211, 217, 219);
-    padding: 2rem;
-}
-
-br {
-    display: block;
-    content: "";
-    margin-top: 10px;
-}
-
-.ctr {
-    display: block;
-    margin: auto;
-}
-
-.txt-ctr {
-text-align: center;
-    display: block;
-    margin: auto;
-}
-
-.btn-home {
-    margin-top: 1rem ;
-    margin-bottom: 1rem;
-    background-color: rgb(252, 250, 245);
-    padding: 1rem;
-}
-
-.border-top {
-    border-top: 0.0625rem solid rgb(211, 217, 219);
 }

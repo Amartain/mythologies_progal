@@ -10,14 +10,15 @@
 </head>
 <body>
 
+
 <div class="container-fluid backgroundc">   <! teljes szélességű container, bármekkora is a kijelző>
     <ul class="navbar nav">    <! navigációs sáv https://www.w3schools.com/bootstrap5/bootstrap_navbar.php>
         <li class="nav-item">   <! logo, név>
             <a class="logo" href="index.html"><img class="logo-img" src="favicon.png"> MITHOPÉDIA </a>
         </li>
-        <li class="nav-item">   <! dropdown menü>
-            <div class="btn-group">
-                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">Mitológiák</button>
+        <li class="nav-item burgermenu">   <! hamburger menü>
+        <div class="btn-group dropstart">
+            <button type="button" class="btn" data-bs-toggle="dropdown"><svg viewBox="0 0 16 16" width="16" height="16" xmlns="http://www.w3.org/2000/svg" class="sc-1uo8m52-0 dxxNML burger"><rect x="4" y="4" width="12" height="1.1" fill="currentColor"></rect><rect x="0" y="8" width="16" height="1.1" fill="currentColor"></rect><rect x="8" y="12" width="8" height="1.1" fill="currentColor"></rect></svg></button>
                 <ul class="dropdown-menu">  <! almenü>
                     <li><a class="dropdown-item" href="undercons.html">Azték</a></li>
                     <li><a class="dropdown-item" href="undercons.html">Egyiptomi</a></li>
@@ -29,14 +30,32 @@
                     <li><a class="dropdown-item" href="undercons.html">Római</a></li>
                     <li><a class="dropdown-item" href="norse.html">Skandináv</a></li>
                     <li><a class="dropdown-item" href="undercons.html">Szláv</a></li>
+                    <li><a class="dropdown-item" href="undercons.html">Rólunk </a></li>
                 </ul>
-            </div>
+        </div>
         </li>
-        <li class="nav-item">  <! rólunk menü>
+        <li class="nav-item menu-lg">   <! dropdown menü>
+        <div class="btn-group">
+            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">Mitológiák</button>
+            <ul class="dropdown-menu">  <! almenü>
+                <li><a class="dropdown-item" href="undercons.html">Azték</a></li>
+                <li><a class="dropdown-item" href="undercons.html">Egyiptomi</a></li>
+                <li><a class="dropdown-item" href="undercons.html">Görög</a></li>
+                <li><a class="dropdown-item" href="undercons.html">Hindu</a></li>
+                <li><a class="dropdown-item" href="undercons.html">Japán</a></li>
+                <li><a class="dropdown-item" href="celtic.html">Kelta</a></li>
+                <li><a class="dropdown-item" href="chinese.html">Kínai</a></li>
+                <li><a class="dropdown-item" href="undercons.html">Római</a></li>
+                <li><a class="dropdown-item" href="norse.html">Skandináv</a></li>
+                <li><a class="dropdown-item" href="undercons.html">Szláv</a></li>
+            </ul>
+        </div>
+        </li>
+        <li class="nav-item menu-lg">  <! rólunk menü>
             <a class="nav-link" href="undercons.html">Rólunk </a>
         </li>
     </ul>
-    <div class="row header ">    <! row: a grid kezdete>
+    <div class="row header">    <! row: a grid kezdete>
         <div class="col-lg-6 justify-content-center align-self-center headtitle">  <! grid - első 6 oszlop (col)>
             <h1 >Mitológiai<br>Enciklopédia</h1>
             <p class="texthidden subtitle" style="width: 70%"> Fedezze fel az ősi civilizációk isteneit, istennőit, mítoszait, legendáit és kozmológiáját</p>
@@ -69,20 +88,26 @@
 </div>
 
 <div class="cultures">
-    <div class="lg.round.img row">
-        <div class="col-sm-4 large-img"> <img class="lg-rounded-img" src="celtic-mythology.jpg"> <h3> Kelta </h3></div>
-        <div class="col-sm-4 large-img"> <img class="lg-rounded-img" src="chinese-mythology-dragons-in-clouds-zhou-xun.jpg"> <h3> Kínai </h3></div>
-        <div class="col-sm-4 large-img"> <img class="lg-rounded-img" src="norse-mythology-the-wild-hunt-of-odin-peter-nicolai-arbo-1872.jpg"> <h3> Skandináv </h3></div>
 
+    <div class="lg.round.img row">
+        <div class="col-sm-4 large-img"> <img class="lg-rounded-img1" src="celtic-mythology-smaller.jpg"> <br> <p> Kelta </p></div>
+        <div class="col-sm-4 large-img"> <img class="lg-rounded-img1" src="chinese-mythology-dragons-in-clouds-zhou-xun.jpg"><br> <p> Kínai </p></div>
+        <div class="col-sm-4 large-img"> <img class="lg-rounded-img1" src="norse-mythology-the-wild-hunt-of-odin-peter-nicolai-arbo-1872.jpg"><br> <p> Skandináv </p></div>
+    </div>
+
+    <div class="lg.round.img row">
+        <div class="col-sm-4 large-img"> <img class="lg-rounded-img" src="celtic-mythology-smaller.jpg"> <br> <p> Kelta </p></div>
+        <div class="col-sm-4 large-img"> <img class="lg-rounded-img" src="chinese-mythology-dragons-in-clouds-zhou-xun.jpg"><br> <p> Kínai </p></div>
+        <div class="col-sm-4 large-img"> <img class="lg-rounded-img" src="norse-mythology-the-wild-hunt-of-odin-peter-nicolai-arbo-1872.jpg"><br> <p> Skandináv </p></div>
     </div>
 
     <div class="sm.round.img row">
-        <div class="col-sm-4 col-lg-2">   <h3> Azték </h3></div>   <! small képernyő felett egymás mellett 3 jelenik meg, large képernyő felett 6 jelenik meg egymás mellett>
-        <div class="col-sm-4 col-lg-2"> <img src="egyptian-mythology-osiris-statuette-the-met.jpg"> <h3> Egyiptomi </h3></div>
-        <div class="col-sm-4 col-lg-2"> <img src="greek-mythology-laocoon-and-his-sons.jpg"> <h3> Görög </h3></div>
-        <div class="col-sm-4 col-lg-2"> <img src="hindu-mythology-durga-as-slayer-of-the-buffalo-demon-mahishasura.jpg"> <h3> Hindu </h3></div>
-        <div class="col-sm-4 col-lg-2"> <img src="japanese-mythology-earth-spider-monsters-utagawa-kuniyoshi_copy.jpg"> <h3> Japán </h3></div>
-        <div class="col-sm-4 col-lg-2"> <img src="roman-mythology-mars-statue.jpg" >  <h3> Római </h3></div>
+        <div class="col-sm-4 col-lg-2 small-img"> <img src="aztec-mythology-statue-of-xochipilli-sm.jpg"><br> <h3> Azték </h3></div>   <! small képernyő felett egymás mellett 3 jelenik meg, large képernyő felett 6 jelenik meg egymás mellett>
+        <div class="col-sm-4 col-lg-2 small-img"> <img src="egyptian-mythology-osiris-statuette-the-met-sm.jpg"><br> <h3> Egyiptomi </h3></div>
+        <div class="col-sm-4 col-lg-2 small-img"> <img src="greek-mythology-laocoon-and-his-sons.jpg"><br> <h3> Görög </h3></div>
+        <div class="col-sm-4 col-lg-2 small-img"> <img src="hindu-mythology-durga-as-slayer-of-the-buffalo-demon-mahishasura.jpg"><br> <h3> Hindu </h3></div>
+        <div class="col-sm-4 col-lg-2 small-img"> <img src="japanese-mythology-earth-spider-monsters-utagawa-kuniyoshi_copy.jpg"><br> <h3> Japán </h3></div>
+        <div class="col-sm-4 col-lg-2 small-img"> <img src="roman-mythology-mars-statue.jpg" > <br> <h3> Római </h3></div>
     </div>
     <svg viewBox="0 0 32 32" width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" class="sc-1uo8m52-0 jjdztN"><path fill="currentColor" d="M32 26.585 19.666 5.221 17.22 9.458 12.337 1 0 22.367h4.881L0 30.823h24.673l-2.446-4.238H32zm-1.69-.975H9.02l4.746-8.22.449.776-3.849 6.667h18.599l-9.3-16.107-3.875 6.711-.448-.776 4.324-7.489L30.31 25.61zm-10.364 2.483H4.726l3.307-5.726h1.733l-2.435 4.218h11.745l.87 1.508zm-7.61-18.638L6.457 19.639h-1.73l7.61-13.181 3.307 5.729-.865 1.498-2.443-4.23zm0 1.951 4.753 8.233h-.898l-3.854-6.677-3.855 6.677h-.898l4.752-8.233zm.58 10.961h3.724l.86 1.49h-5.444l.86-1.49zm5.71 1.49-.86-1.49h.899l.86 1.49h-.898zm2.026 0-.86-1.49h4.881l-5.879-10.181.872-1.51 7.61 13.181h-6.624zm-2.42-10.696 4.752 8.23h-9.505l.449-.777h7.708l-3.854-6.675.45-.778zm-3.167 6.478h-.574l.287-.497.287.497zm2.154-4.725 2.727 4.725h-1.73l-1.862-3.226.865-1.499zm-4.883 0 .867 1.5-1.861 3.225H9.608l2.728-4.726zm0-11.963 4.32 7.482-.449.778-3.87-6.704-9.3 16.107h7.741l-.449.778H1.69l10.647-18.44zm10.647 26.896H1.69l4.319-7.48h.898l-3.87 6.703h18.6l-1.435-2.484h.898l1.883 3.262z"></path></svg>
         <path fill="currentColor" d="M32 26.585 19.666 5.221 17.22 9.458 12.337 1 0 22.367h4.881L0 30.823h24.673l-2.446-4.238H32zm-1.69-.975H9.02l4.746-8.22.449.776-3.849 6.667h18.599l-9.3-16.107-3.875 6.711-.448-.776 4.324-7.489L30.31 25.61zm-10.364 2.483H4.726l3.307-5.726h1.733l-2.435 4.218h11.745l.87 1.508zm-7.61-18.638L6.457 19.639h-1.73l7.61-13.181 3.307 5.729-.865 1.498-2.443-4.23zm0 1.951 4.753 8.233h-.898l-3.854-6.677-3.855 6.677h-.898l4.752-8.233zm.58 10.961h3.724l.86 1.49h-5.444l.86-1.49zm5.71 1.49-.86-1.49h.899l.86 1.49h-.898zm2.026 0-.86-1.49h4.881l-5.879-10.181.872-1.51 7.61 13.181h-6.624zm-2.42-10.696 4.752 8.23h-9.505l.449-.777h7.708l-3.854-6.675.45-.778zm-3.167 6.478h-.574l.287-.497.287.497zm2.154-4.725 2.727 4.725h-1.73l-1.862-3.226.865-1.499zm-4.883 0 .867 1.5-1.861 3.225H9.608l2.728-4.726zm0-11.963 4.32 7.482-.449.778-3.87-6.704-9.3 16.107h7.741l-.449.778H1.69l10.647-18.44zm10.647 26.896H1.69l4.319-7.48h.898l-3.87 6.703h18.6l-1.435-2.484h.898l1.883 3.262z"></path>

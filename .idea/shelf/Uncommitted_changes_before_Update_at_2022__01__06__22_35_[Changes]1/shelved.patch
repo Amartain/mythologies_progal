@@ -1,0 +1,92 @@
+Index: norse.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"hu\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Kínai Mitológia </title>\r\n    <link rel=\"icon\" type=\"image/png\" href=\"favicon.png\">\r\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.css\" rel=\"stylesheet\">   <! bootstrap style belinkelése, ha nem akarjuk letölteni>\r\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js\"></script> <! javasript>\r\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\r\n</head>\r\n<body>\r\n\r\n<div class=\"container-fluid backgroundc\">   <! teljes szélességű container, bármekkora is a kijelző>\r\n    <ul class=\"navbar nav\">    <! navigációs sáv https://www.w3schools.com/bootstrap5/bootstrap_navbar.php>\r\n        <li class=\"nav-item\">   <! logo, név>\r\n            <a class=\"logo\" href=\"index.html\"><img class=\"logo-img\" src=\"favicon.png\"> MITHOPÉDIA </a>\r\n        </li>\r\n        <li class=\"nav-item burgermenu\">   <! hamburger menü>\r\n            <div class=\"btn-group dropstart\">\r\n                <button type=\"button\" class=\"btn\" data-bs-toggle=\"dropdown\"><svg viewBox=\"0 0 16 16\" width=\"16\" height=\"16\" xmlns=\"http://www.w3.org/2000/svg\" class=\"sc-1uo8m52-0 dxxNML burger\"><rect x=\"4\" y=\"4\" width=\"12\" height=\"1.1\" fill=\"currentColor\"></rect><rect x=\"0\" y=\"8\" width=\"16\" height=\"1.1\" fill=\"currentColor\"></rect><rect x=\"8\" y=\"12\" width=\"8\" height=\"1.1\" fill=\"currentColor\"></rect></svg></button>\r\n                <ul class=\"dropdown-menu\">  <! almenü>\r\n                    <li><a class=\"dropdown-item\" href=\"undercons.html\">Azték</a></li>\r\n                    <li><a class=\"dropdown-item\" href=\"undercons.html\">Egyiptomi</a></li>\r\n                    <li><a class=\"dropdown-item\" href=\"undercons.html\">Görög</a></li>\r\n                    <li><a class=\"dropdown-item\" href=\"undercons.html\">Hindu</a></li>\r\n                    <li><a class=\"dropdown-item\" href=\"undercons.html\">Japán</a></li>\r\n                    <li><a class=\"dropdown-item\" href=\"celtic.html\">Kelta</a></li>\r\n                    <li><a class=\"dropdown-item\" href=\"chinese.html\">Kínai</a></li>\r\n                    <li><a class=\"dropdown-item\" href=\"undercons.html\">Római</a></li>\r\n                    <li><a class=\"dropdown-item\" href=\"norse.html\">Skandináv</a></li>\r\n                    <li><a class=\"dropdown-item\" href=\"undercons.html\">Szláv</a></li>\r\n                    <li><a class=\"dropdown-item\" href=\"undercons.html\">Rólunk </a></li>\r\n                </ul>\r\n            </div>\r\n        </li>\r\n        <li class=\"nav-item menu-lg\">   <! dropdown menü>\r\n            <div class=\"btn-group\">\r\n                <button type=\"button\" class=\"btn dropdown-toggle\" data-bs-toggle=\"dropdown\">Mitológiák</button> <! ehhez sztem kell js, szoval máshogy kellene megcsinálni>\r\n                <ul class=\"dropdown-menu\">  <! almenü>\r\n                    <li><a class=\"dropdown-item\" href=\"undercons.html\">Azték</a></li>\r\n                    <li><a class=\"dropdown-item\" href=\"undercons.html\">Egyiptomi</a></li>\r\n                    <li><a class=\"dropdown-item\" href=\"undercons.html\">Görög</a></li>\r\n                    <li><a class=\"dropdown-item\" href=\"undercons.html\">Hindu</a></li>\r\n                    <li><a class=\"dropdown-item\" href=\"undercons.html\">Japán</a></li>\r\n                    <li><a class=\"dropdown-item\" href=\"#\">Kelta</a></li>\r\n                    <li><a class=\"dropdown-item\" href=\"#\">Kínai</a></li>\r\n                    <li><a class=\"dropdown-item\" href=\"undercons.html\">Római</a></li>\r\n                    <li><a class=\"dropdown-item\" href=\"#\">Skandináv</a></li>\r\n                    <li><a class=\"dropdown-item\" href=\"undercons.html\">Szláv</a></li>\r\n                </ul>\r\n            </div>\r\n        </li>\r\n        <li class=\"nav-item menu-lg\">  <! rólunk menü>\r\n            <a class=\"nav-link\" href=\"#\">Rólunk </a>\r\n        </li>\r\n    </ul>\r\n    <div class=\"row header \">    <! row: a grid kezdete, egy sor, ez tartalmaz 12 oszlopot, amiket elosztunk 6-6 nak: https://www.w3schools.com/bootstrap5/bootstrap_grid_basic.php>\r\n        <div class=\"col-lg-6 justify-content-center align-self-center headtitle\">  <! grid - első 6 oszlop (col)>\r\n            <h1 >Kínai <br> Mitológia</h1>\r\n            <p class=\"texthidden subtitle\"> Kína különböző régióinak, korszakainak és népeinek mitológiai hagyományai.</p>\r\n        </div>\r\n        <div class=\"col-lg-6\" > <! grid - következő 6 oszlop (col)>\r\n\r\n            <img class=\"img-fluid\"  src=\"mythopedia-chinese-mythology_lg.png\" >\r\n        </div>\r\n\r\n\r\n    </div>\r\n</div>\r\n\r\n<div class=\"content\">\r\n    <p class=\"md-txt\">A kínai mitológia a folklór, a történelem és a vallási hit széles skáláját öleli fel számos időszakra és népre vonatkozóan, beleértve a jelenkort is. E mítoszok közül sok bonyolultan kötődik a filozófiához, a valláshoz, a hagyományokhoz és a társadalomhoz.</p>\r\n\r\n\r\n    <h3 class=\"bold font-md\">Kínai Panteon</h3>\r\n\r\n    <table class=\"our-table md-txt\">\r\n        <tr>\r\n            <td colspan=\"2\"><p class=\"bold\">Bixia</p><p> A termékenység kínai istennője, a gyermekek és az anyák gyámja. </p></td>\r\n        </tr>\r\n        <tr>\r\n            <td colspan=\"2\"><p class=\"bold\">Caishen</p><p> A gazdagság és a pénz kínai istene, akinek gyermeke a vasat arannyá változtatja. </p></td>\r\n\r\n        </tr>\r\n        <tr>\r\n            <td colspan=\"2\"><p class=\"bold\">Cangjie</p><p>A kínai írásrendszer megteremtéséért tisztelt kulturális hős.  </p></td>\r\n\r\n        </tr>\r\n        <tr>\r\n            <td> <p class=\"bold \">Cangjie</p><p>A kínai írásrendszer megteremtéséért tisztelt kulturális hős.  </p></td>\r\n            <td class=\"sm-img-container \"><img class =\"rounded-circle circle-img\" src=\"chang-e-chinese-goddess-of-the-moon.jpg\" > </td>\r\n        </tr>\r\n    </table>\r\n\r\n</div>\r\n\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/norse.html b/norse.html
+--- a/norse.html	
++++ b/norse.html	
+@@ -56,8 +56,8 @@
+     </ul>
+     <div class="row header ">    <! row: a grid kezdete, egy sor, ez tartalmaz 12 oszlopot, amiket elosztunk 6-6 nak: https://www.w3schools.com/bootstrap5/bootstrap_grid_basic.php>
+         <div class="col-lg-6 justify-content-center align-self-center headtitle">  <! grid - első 6 oszlop (col)>
+-            <h1 >Kínai <br> Mitológia</h1>
+-            <p class="texthidden subtitle"> Kína különböző régióinak, korszakainak és népeinek mitológiai hagyományai.</p>
++            <h1>Norvég <br> Mitológia</h1>
++            <p class="texthidden subtitle"> Az ősi északi társadalom kozmológiája, istenségei, mítoszai és szörnyei.</p>
+         </div>
+         <div class="col-lg-6" > <! grid - következő 6 oszlop (col)>
+ 
+@@ -69,27 +69,61 @@
+ </div>
+ 
+ <div class="content">
+-    <p class="md-txt">A kínai mitológia a folklór, a történelem és a vallási hit széles skáláját öleli fel számos időszakra és népre vonatkozóan, beleértve a jelenkort is. E mítoszok közül sok bonyolultan kötődik a filozófiához, a valláshoz, a hagyományokhoz és a társadalomhoz.</p>
++    <p class="md-txt">Az északi mitológia az ősi északi népek történeteinek, vallási szokásainak és mítoszainak gyűjteménye. Ezek a szövegek az északi pogányságtól kezdve a középkorig terjedő időszakot ölelik fel, amely során Skandinávia nagy része áttért a kereszténységre.</p>
+ 
+ 
+-    <h3 class="bold font-md">Kínai Panteon</h3>
++    <h3 class="bold font-md">Norvég Panteon</h3>
+ 
+     <table class="our-table md-txt">
+         <tr>
+-            <td colspan="2"><p class="bold">Bixia</p><p> A termékenység kínai istennője, a gyermekek és az anyák gyámja. </p></td>
++            <td colspan="2"><p class="bold">Baldur</p><p> "Ragyogó" északi isten, aki szépségéről, bölcsességéről és igazságosságáról ismert. </p></td>
++            <td class="sm-img-container "><img class ="rounded-circle circle-img" src="baldur-norse-god-of-light.jpg.jpg" > </td>
++        </tr>
++        <tr>
++            <td colspan="2"><p class="bold">Freya</p><p> Az áldás, a szerelem és a termékenység gyönyörű és csábító északi istennője. </p></td>
++            <td class="sm-img-container "><img class ="rounded-circle circle-img" src="freya-norse-goddess-of-fertility_sm.jpg.jpg" > </td>
++
++        </tr>
++        <tr>
++            <td colspan="2"><p class="bold">Freyr</p><p>A béke és a jólét északi istene, a férfiassággal és a jó idővel kapcsolatos.  </p></td>
++            <td class="sm-img-container "><img class ="rounded-circle circle-img" src="freyr-norse-god-of-peace.jpg.jpg" > </td>
++
++        </tr>
++        <tr>
++            <td> <p class="bold ">Frigg</p><p>Az anyaság és termékenység északi istennője, az Aesir istenségek királynője.  </p></td>
++            <td class="sm-img-container "><img class ="rounded-circle circle-img" src="frigg-norse-goddess-of-fertility.jpg.jpg" > </td>
++        </tr>
++        <tr>
++            <td colspan="2"><p class="bold">Heimdall</p><p> Őrző északi isten, aki Asgardot védte az ellenséges inváziótól. </p></td>
++            <td class="sm-img-container "><img class ="rounded-circle circle-img" src="heimdall-norse-guardian-of-asgard.jpg.jpg" > </td>
+         </tr>
+         <tr>
+-            <td colspan="2"><p class="bold">Caishen</p><p> A gazdagság és a pénz kínai istene, akinek gyermeke a vasat arannyá változtatja. </p></td>
+-
++            <td colspan="2"><p class="bold">Idun</p><p> Az ifjúság és termékenység északi istennője, akinek varázslatos almái megfiatalították az isteneket. </p></td>
++            <td class="sm-img-container "><img class ="rounded-circle circle-img" src="idun-norse-goddess-of-youth.jpg.jpg" > </td>
+         </tr>
+         <tr>
+-            <td colspan="2"><p class="bold">Cangjie</p><p>A kínai írásrendszer megteremtéséért tisztelt kulturális hős.  </p></td>
+-
++            <td colspan="2"><p class="bold">Loki</p><p> Sarki szélhámos isten, akinek cselszövései és csalásai káoszt okoztak. </p></td>
++            <td class="sm-img-container "><img class ="rounded-circle circle-img" src="loki-norse-trickster-god.jpg.jpg" > </td>
+         </tr>
+         <tr>
+-            <td> <p class="bold ">Cangjie</p><p>A kínai írásrendszer megteremtéséért tisztelt kulturális hős.  </p></td>
+-            <td class="sm-img-container "><img class ="rounded-circle circle-img" src="chang-e-chinese-goddess-of-the-moon.jpg" > </td>
++            <td colspan="2"><p class="bold">Nerthus</p><p> Titokzatos északi istennő, akit a béke és a jólét hozójaként ismernek. </p></td>
++            <td class="sm-img-container "><img class ="rounded-circle circle-img" src="nerthus-norse-goddess-emil-doepler-circa-1905.jpg.jpg" > </td>
++        </tr>
++        <tr>
++            <td colspan="2"><p class="bold">Njord</p><p> A szél és a vizek északi istene, a Vanir istenségek törzsének pátriárkája. </p></td>
++            <td class="sm-img-container "><img class ="rounded-circle circle-img" src="njord-norse-god-of-the-sea.jpg.jpg" > </td>
++        </tr>
++        <tr>
++            <td colspan="2"><p class="bold">Odin</p><p> A "Mindenatya", az északi istenek vezetője és az Aesir uralkodója. </p></td>
++            <td class="sm-img-container "><img class ="rounded-circle circle-img" src="odin-norse-ruler-of-the-aesir-gods.jpg.jpg" > </td>
++        </tr>
++        <tr>
++            <td colspan="2"><p class="bold">Thor</p><p> A mennydörgés északi istene és a Mjölnir mágikus kalapácsának kezelője. </p></td>
++            <td class="sm-img-container "><img class ="rounded-circle circle-img" src="thor-norse-god-of-thunder.jpg.jpg" > </td>
++        <tr>
++            <td colspan="2"><p class="bold">Tyr</p><p> Félkarú északi hadisten, aki a rend és az igazságosság védelmezője volt. </p></td>
+         </tr>
++
+     </table>
+ 
+ </div>
