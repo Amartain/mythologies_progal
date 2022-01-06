@@ -40,6 +40,15 @@ h1{
     font-family: "Queens Condensed", Tahoma,  Serif;
 }
 
+h2{
+    color: black;
+    font-weight: 515;
+    line-height: 100%;
+    font-size: 5.5rem;
+    font-family: "Queens Condensed", Tahoma,  Serif;
+    text-align: center;
+}
+
 
 .subtitle {
     font-style: italic;
@@ -178,4 +187,20 @@ td{
     );
     transform-origin: center center;
     transition: all 0.45s
+}
+
+
+.lg-rounded-img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: 0px auto;
+    display: inline-block;
+    border-radius: 7.5rem;
+
+}
+
+.large-img {
+    padding: 1.5rem;
+    aspect-ratio: 123 / 150;
 }
