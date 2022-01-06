@@ -215,6 +215,14 @@ td{
     transition: all 0.45s
 }
 
+.lg-rounded-img1 {
+
+    margin: 0px auto;
+    display: block;
+    border-radius: 7.5rem;
+    max-width: 80%;
+
+}
 
 .lg-rounded-img {
     position: relative;
@@ -223,13 +231,24 @@ td{
     margin: 0px auto;
     display: inline-block;
     border-radius: 7.5rem;
+    max-width: 50%;
 
 }
 
 .large-img {
     padding: 1.5rem;
     aspect-ratio: 123 / 150;
+    text-align: center;
 }
+.small-img img{
+    max-width: 90%;
+    border-radius: 50%;
+}
+.small-img{
+    text-align: center;
+    margin-top: 10%;
+}
+
 
 .alt-bgc {
     background-color: rgb(252, 250, 245);

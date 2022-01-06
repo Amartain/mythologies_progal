@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="hamburgermenu: index.html, celtic.html&#10;celtic.html almost done">
-      <change beforePath="$PROJECT_DIR$/chinese.html" beforeDir="false" afterPath="$PROJECT_DIR$/chinese.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/norse.html" beforeDir="false" afterPath="$PROJECT_DIR$/norse.html" afterDir="false" />
+    <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="hamburgermenu: norse.html, chinese.html">
+      <change afterPath="$PROJECT_DIR$/aztec-mythology-statue-of-xochipilli-sm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/egyptian-mythology-osiris-statuette-the-met-sm.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/celtic-mythology-smaller.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/celtic-mythology-smaller.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <list id="feaf54eb-4085-47b2-9782-79dbf0ca3756" name="Changes by amartain" comment="index.html images" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +71,7 @@
       <workItem from="1641395637188" duration="380000" />
       <workItem from="1641483322146" duration="1240000" />
       <workItem from="1641490556264" duration="37000" />
-      <workItem from="1641490594197" duration="8161000" />
+      <workItem from="1641490594197" duration="10778000" />
     </task>
     <task id="LOCAL-00001" summary="index.html header &quot;bootstrap&quot;-elve">
       <created>1640023025174</created>
@@ -111,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641501397319</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="hamburgermenu: norse.html, chinese.html">
+      <created>1641501575421</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1641501575421</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +146,7 @@
     <MESSAGE value="index.html images" />
     <MESSAGE value="images added" />
     <MESSAGE value="hamburgermenu: index.html, celtic.html&#10;celtic.html almost done" />
-    <option name="LAST_COMMIT_MESSAGE" value="hamburgermenu: index.html, celtic.html&#10;celtic.html almost done" />
+    <MESSAGE value="hamburgermenu: norse.html, chinese.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="hamburgermenu: norse.html, chinese.html" />
   </component>
 </project>
