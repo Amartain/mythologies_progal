@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="hamburgermenu: norse.html, chinese.html">
-      <change afterPath="$PROJECT_DIR$/aztec-mythology-statue-of-xochipilli-sm.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/egyptian-mythology-osiris-statuette-the-met-sm.jpg" afterDir="false" />
+    <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="norse.html képek nélkül">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/celtic-mythology-smaller.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/celtic-mythology-smaller.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/norse.html" beforeDir="false" afterPath="$PROJECT_DIR$/norse.html" afterDir="false" />
     </list>
     <list id="feaf54eb-4085-47b2-9782-79dbf0ca3756" name="Changes by amartain" comment="index.html images" />
     <option name="SHOW_DIALOG" value="false" />
@@ -147,6 +143,7 @@
     <MESSAGE value="images added" />
     <MESSAGE value="hamburgermenu: index.html, celtic.html&#10;celtic.html almost done" />
     <MESSAGE value="hamburgermenu: norse.html, chinese.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="hamburgermenu: norse.html, chinese.html" />
+    <MESSAGE value="norse.html képek nélkül" />
+    <option name="LAST_COMMIT_MESSAGE" value="norse.html képek nélkül" />
   </component>
 </project>
