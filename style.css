@@ -1,5 +1,13 @@
+@font-face {
+    font-family: 'baron_neueregular';
+    src: url('webfonts/baron_neue-webfont.woff2') format('woff2'),
+    url('webfonts/baron_neue-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 .container-fluid{
-    background-color: rgb(18, 52, 63);
     padding: 0.5% 15%;
 }
 
@@ -26,5 +34,105 @@ div.scrollmenu a:hover {
 
 h1{
     color: white;
+    font-weight: 515;
+    line-height: 100%;
+    font-size: 5.5rem;
+    font-family: "Queens Condensed", Tahoma,  Serif;
+}
+
+
+.subtitle {
+    font-style: italic;
+    color: white;
+}
+
+body {
+    font-family: "Times New Roman", Times, Serif;
+}
+
+.texthidden{
+    display: none;
+}
+
+.content {
+    background-color: white !important;
+    margin: auto;
+    width: 95%;
+    text-align: justify;
+
+}
+
+@media (min-width: 992px){
+    .texthidden{
+        display: block;
+    }
+    .content{
+        width: 60%;
+    }
+}
+
+@media (max-width: 992px) {
+    .headtitle {
+        text-align: center;
+
+    }
+}
+
+a  {
+   all: unset;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+
+.logo {
+    font-family: 'baron_neueregular' !important;
+    color: white;
+
+}
+
+.btn {
+    color: white !important;
+}
+
+.backgroundc {
+    background-color: rgb(18, 52, 63);
+}
+
+
+.md-txt {
+    font-size: 1.35rem;
+    padding: 5rem 0px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+table {
+    font-size: 1.125rem;
+}
+
+.our-table {
+    border: 0.0625rem solid rgb(211, 217, 219) !important;
+    width: 95%;
+    height: auto;
+    margin: 1rem 0px;
+    border-radius: 0.125rem;
+}
+
+.our-table tr {
+    padding: 0.5rem;
+}
+
+.our-table, tr, td {
+    border: 0.0625rem solid rgb(211, 217, 219) !important;
+    border-collapse: collapse;
+    padding: 1rem 1rem;
+}
+
+.font-md {
     font-size: 2rem;
 }

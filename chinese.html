@@ -10,10 +10,10 @@
 </head>
 <body>
 
-<div class="container-fluid">   <! teljes szélességű container, bármekkora is a kijelző>
+<div class="container-fluid backgroundc">   <! teljes szélességű container, bármekkora is a kijelző>
     <ul class="navbar nav">    <! navigációs sáv https://www.w3schools.com/bootstrap5/bootstrap_navbar.php>
         <li class="nav-item">   <! logo, név>
-            <a class="logo"><img class="logo-img" src="favicon.png"> Mithopédia </a>
+            <a class="logo" href="index.html"><img class="logo-img" src="favicon.png"> MITHOPÉDIA </a>
         </li>
         <li class="nav-item">   <! dropdown menü>
             <div class="btn-group">
@@ -36,14 +36,38 @@
             <a class="nav-link" href="#">Rólunk </a>
         </li>
     </ul>
-    <div class="row header">    <! row: a grid kezdete, egy sor, ez tartalmaz 12 oszlopot, amiket elosztunk 6-6 nak: https://www.w3schools.com/bootstrap5/bootstrap_grid_basic.php>
-        <div class="col-sm-6">  <! grid - első 6 oszlop (col)>
-            <h1>Kínai <br> Mitológia</h1>
+    <div class="row header ">    <! row: a grid kezdete, egy sor, ez tartalmaz 12 oszlopot, amiket elosztunk 6-6 nak: https://www.w3schools.com/bootstrap5/bootstrap_grid_basic.php>
+        <div class="col-lg-6 justify-content-center align-self-center headtitle">  <! grid - első 6 oszlop (col)>
+            <h1 >Kínai <br> Mitológia</h1>
+            <p class="texthidden subtitle"> Kína különböző régióinak, korszakainak és népeinek mitológiai hagyományai.</p>
         </div>
-        <div class="col-sm-6" > <! grid - következő 6 oszlop (col)>
+        <div class="col-lg-6" > <! grid - következő 6 oszlop (col)>
 
-            <img class="main-img"  src="mythopedia-chinese-mythology_lg.png" >
+            <img class="img-fluid"  src="mythopedia-chinese-mythology_lg.png" >
         </div>
+
+
     </div>
+
+
+
+</div>
+<div class="content">
+    <p class="intro-text">A kínai mitológia a folklór, a történelem és a vallási hit széles skáláját öleli fel számos időszakra és népre vonatkozóan, beleértve a jelenkort is. E mítoszok közül sok bonyolultan kötődik a filozófiához, a valláshoz, a hagyományokhoz és a társadalomhoz.</p>
+
+
+    <h3 class="bold font-md">Kínai Panteon</h3>
+
+    <table class="our-table">
+        <tr>
+            <td colspan="2"><p class="bold">Bixia</p><p> A termékenység kínai istennője, a gyermekek és az anyák gyámja. </p></td>
+        </tr>
+        <tr>
+            <td colspan="2"><p class="bold">Caishen</p><p> A gazdagság és a pénz kínai istene, akinek gyermeke a vasat arannyá változtatja. </p></td>
+
+        </tr>
+    </table>
+
 </div>
 
+</body>

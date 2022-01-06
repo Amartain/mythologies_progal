@@ -5,7 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/fonts/Baron Neue Black Italic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Baron Neue Black.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Baron Neue Bold Italic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Baron Neue Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Baron Neue Italic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Baron Neue.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Baron Personal_EULA_license.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Baron_Specimen.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/baron_neue-demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/baron_neue-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/baron_neue-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/generator_config.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/specimen_files/grid_12-825-55-15.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/specimen_files/specimen_stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chinese.html" beforeDir="false" afterPath="$PROJECT_DIR$/chinese.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +46,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -69,7 +95,9 @@
       <workItem from="1640022862718" duration="307000" />
       <workItem from="1641308594129" duration="309000" />
       <workItem from="1641459399725" duration="20000" />
-      <workItem from="1641459432979" duration="726000" />
+      <workItem from="1641459432979" duration="5902000" />
+      <workItem from="1641465744664" duration="2600000" />
+      <workItem from="1641469831193" duration="2247000" />
     </task>
     <task id="LOCAL-00001" summary="index.html header &quot;bootstrap&quot;-elve">
       <created>1640023025174</created>
@@ -99,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641459692817</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="style added again">
+      <created>1641460311353</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1641460311353</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +156,7 @@
     <MESSAGE value="index.html header &quot;bootstrap&quot;-elve" />
     <MESSAGE value="index.html mitológia képek hozzáad" />
     <MESSAGE value="chinese.html added&#10;chinese.html main img added" />
-    <option name="LAST_COMMIT_MESSAGE" value="chinese.html added&#10;chinese.html main img added" />
+    <MESSAGE value="style added again" />
+    <option name="LAST_COMMIT_MESSAGE" value="style added again" />
   </component>
 </project>
