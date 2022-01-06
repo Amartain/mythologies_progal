@@ -15,7 +15,25 @@
         <li class="nav-item">   <! logo, név>
             <a class="logo" href="index.html"><img class="logo-img" src="favicon.png"> MITHOPÉDIA </a>
         </li>
-        <li class="nav-item">   <! dropdown menü>
+        <li class="nav-item burgermenu">   <! hamburger menü>
+            <div class="btn-group dropstart">
+                <button type="button" class="btn" data-bs-toggle="dropdown"><svg viewBox="0 0 16 16" width="16" height="16" xmlns="http://www.w3.org/2000/svg" class="sc-1uo8m52-0 dxxNML burger"><rect x="4" y="4" width="12" height="1.1" fill="currentColor"></rect><rect x="0" y="8" width="16" height="1.1" fill="currentColor"></rect><rect x="8" y="12" width="8" height="1.1" fill="currentColor"></rect></svg></button>
+                <ul class="dropdown-menu">  <! almenü>
+                    <li><a class="dropdown-item" href="undercons.html">Azték</a></li>
+                    <li><a class="dropdown-item" href="undercons.html">Egyiptomi</a></li>
+                    <li><a class="dropdown-item" href="undercons.html">Görög</a></li>
+                    <li><a class="dropdown-item" href="undercons.html">Hindu</a></li>
+                    <li><a class="dropdown-item" href="undercons.html">Japán</a></li>
+                    <li><a class="dropdown-item" href="celtic.html">Kelta</a></li>
+                    <li><a class="dropdown-item" href="chinese.html">Kínai</a></li>
+                    <li><a class="dropdown-item" href="undercons.html">Római</a></li>
+                    <li><a class="dropdown-item" href="norse.html">Skandináv</a></li>
+                    <li><a class="dropdown-item" href="undercons.html">Szláv</a></li>
+                    <li><a class="dropdown-item" href="undercons.html">Rólunk </a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="nav-item menu-lg">   <! dropdown menü>
             <div class="btn-group">
                 <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">Mitológiák</button> <! ehhez sztem kell js, szoval máshogy kellene megcsinálni>
                 <ul class="dropdown-menu">  <! almenü>
@@ -32,7 +50,7 @@
                 </ul>
             </div>
         </li>
-        <li class="nav-item">  <! rólunk menü>
+        <li class="nav-item menu-lg">  <! rólunk menü>
             <a class="nav-link" href="#">Rólunk </a>
         </li>
     </ul>
