@@ -4,13 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chang-e-chinese-goddess-of-the-moon.jpg" afterDir="false" />
+    <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="index.html images">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022__01__04__15_12_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022__01__04__15_12__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022__01__04__16_08_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022__01__04__16_08__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022__01__04__16_13_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022__01__04__16_13__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022__01__06__15_58_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022__01__06__15_58_[Changes_by_amartain]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022__01__06__15_58__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022__01__06__15_58__Changes_by_amartain_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baldur-norse-god-of-light.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/celtic-mythology.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mythopedia-norse-mythology-large.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chinese.html" beforeDir="false" afterPath="$PROJECT_DIR$/chinese.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
+    <list id="feaf54eb-4085-47b2-9782-79dbf0ca3756" name="Changes by amartain" comment="index.html images" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,19 +37,8 @@
       </list>
     </option>
   </component>
-  <component name="Git.Rebase.Settings">
-    <option name="NEW_BASE" value="main" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -51,10 +50,8 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -79,11 +76,7 @@
       <workItem from="1639830153751" duration="39000" />
       <workItem from="1639830233913" duration="2095000" />
       <workItem from="1640022862718" duration="307000" />
-      <workItem from="1641308594129" duration="309000" />
-      <workItem from="1641459399725" duration="20000" />
-      <workItem from="1641459432979" duration="5902000" />
-      <workItem from="1641465744664" duration="2600000" />
-      <workItem from="1641469831193" duration="5665000" />
+      <workItem from="1641395637188" duration="380000" />
     </task>
     <task id="LOCAL-00001" summary="index.html header &quot;bootstrap&quot;-elve">
       <created>1640023025174</created>
@@ -92,42 +85,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640023025174</updated>
     </task>
-    <task id="LOCAL-00002" summary="index.html mitológia képek hozzáad">
-      <created>1641308627437</created>
+    <task id="LOCAL-00002" summary="alap html kész">
+      <created>1641310853256</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1641308627437</updated>
+      <updated>1641310853256</updated>
     </task>
-    <task id="LOCAL-00003" summary="chinese.html added&#10;chinese.html main img added">
-      <created>1641459222739</created>
+    <task id="LOCAL-00003" summary="index.html images">
+      <created>1641481637849</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1641459222739</updated>
+      <updated>1641481637849</updated>
     </task>
-    <task id="LOCAL-00004" summary="chinese.html added&#10;chinese.html main img added">
-      <created>1641459692817</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1641459692817</updated>
-    </task>
-    <task id="LOCAL-00005" summary="style added again">
-      <created>1641460311353</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1641460311353</updated>
-    </task>
-    <task id="LOCAL-00006" summary="css haladás, fonts, table etc.">
-      <created>1641472219158</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1641472219158</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,12 +117,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="index.html header &quot;bootstrap&quot;-elve" />
-    <MESSAGE value="index.html mitológia képek hozzáad" />
-    <MESSAGE value="chinese.html added&#10;chinese.html main img added" />
-    <MESSAGE value="style added again" />
-    <MESSAGE value="css haladás, fonts, table etc." />
-    <option name="LAST_COMMIT_MESSAGE" value="css haladás, fonts, table etc." />
+    <MESSAGE value="alap html kész" />
+    <MESSAGE value="css elkezdve" />
+    <MESSAGE value="index.html images" />
+    <option name="LAST_COMMIT_MESSAGE" value="index.html images" />
   </component>
 </project>

@@ -1,0 +1,209 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"hu\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Mitológiák </title>\n    <link rel=\"icon\" type=\"image/png\" href=\"favicon.png\">\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.css\" rel=\"stylesheet\">   <! bootstrap style belinkelése, ha nem akarjuk letölteni>\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js\"></script> <! javasript>\n</head>\n<body>\n\n<div class=\"container-fluid\">   <! teljes szélességű container, bármekkora is a kijelző>\n    <ul class=\"navbar nav\">    <! navigációs sáv https://www.w3schools.com/bootstrap5/bootstrap_navbar.php>\n        <li class=\"nav-item\">   <! logo, név>\n            <a class=\"logo\"><img class=\"logo-img\" src=\"favicon.png\"> Mithopédia </a>\n        </li>\n        <li class=\"nav-item\">   <! dropdown menü>\n            <div class=\"btn-group\">\n                <button type=\"button\" class=\"btn btn-primary dropdown-toggle\" data-bs-toggle=\"dropdown\">Mitológiák</button> <! ehhez sztem kell js, szoval máshogy kellene megcsinálni>\n                <ul class=\"dropdown-menu\">  <! almenü>\n                    <li><a class=\"dropdown-item\" href=\"#\">Azték</a></li>\n                    <li><a class=\"dropdown-item\" href=\"#\">Egyiptomi</a></li>\n                    <li><a class=\"dropdown-item\" href=\"#\">Görög</a></li>\n                    <li><a class=\"dropdown-item\" href=\"#\">Hindu</a></li>\n                    <li><a class=\"dropdown-item\" href=\"#\">Japán</a></li>\n                    <li><a class=\"dropdown-item\" href=\"#\">Kelta</a></li>\n                    <li><a class=\"dropdown-item\" href=\"#\">Kínai</a></li>\n                    <li><a class=\"dropdown-item\" href=\"#\">Római</a></li>\n                    <li><a class=\"dropdown-item\" href=\"#\">Skandináv</a></li>\n                    <li><a class=\"dropdown-item\" href=\"#\">Szláv</a></li>\n                </ul>\n            </div>\n        </li>   <! rólunk menü>\n        <li class=\"nav-item\">\n            <a class=\"nav-link\"> Rólunk </a>\n        </li>\n    </ul>\n</div>\n\n<div class=\"row header\">    <! row: a grid kezdete, egy sor, ez tartalmaz 12 oszlopot, amiket elosztunk 6-6 nak: https://www.w3schools.com/bootstrap5/bootstrap_grid_basic.php>\n    <div class=\"col-sm-6\">  <! grid - első 6 oszlop (col)>\n        <p>Mitológiai <br>Enciklopédia</p>\n    </div>\n    <div class=\"col-sm-6\" > <! grid - következő 6 oszlop (col)>\n        <img class=\"index-img\"  src=\"mythopedia.png\">\n    </div>\n</div>\n\n</body>\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision efdcee645f2299732f44a44bdfaf25695d76a840)
++++ b/index.html	(date 1641308836817)
+@@ -6,6 +6,7 @@
+     <link rel="icon" type="image/png" href="favicon.png">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.css" rel="stylesheet">   <! bootstrap style belinkelése, ha nem akarjuk letölteni>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> <! javasript>
++    <link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+ <body>
+ 
+@@ -16,7 +17,7 @@
+         </li>
+         <li class="nav-item">   <! dropdown menü>
+             <div class="btn-group">
+-                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Mitológiák</button> <! ehhez sztem kell js, szoval máshogy kellene megcsinálni>
++                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">Mitológiák</button> <! ehhez sztem kell js, szoval máshogy kellene megcsinálni>
+                 <ul class="dropdown-menu">  <! almenü>
+                     <li><a class="dropdown-item" href="#">Azték</a></li>
+                     <li><a class="dropdown-item" href="#">Egyiptomi</a></li>
+@@ -30,21 +31,61 @@
+                     <li><a class="dropdown-item" href="#">Szláv</a></li>
+                 </ul>
+             </div>
+-        </li>   <! rólunk menü>
+-        <li class="nav-item">
+-            <a class="nav-link"> Rólunk </a>
++        </li>
++        <li class="nav-item">  <! rólunk menü>
++            <a class="nav-link" href="#">Rólunk </a>
+         </li>
+     </ul>
+ </div>
+ 
+ <div class="row header">    <! row: a grid kezdete, egy sor, ez tartalmaz 12 oszlopot, amiket elosztunk 6-6 nak: https://www.w3schools.com/bootstrap5/bootstrap_grid_basic.php>
+     <div class="col-sm-6">  <! grid - első 6 oszlop (col)>
+-        <p>Mitológiai <br>Enciklopédia</p>
++        <h2>Mitológiai <br>Enciklopédia</h2>
+     </div>
+     <div class="col-sm-6" > <! grid - következő 6 oszlop (col)>
+         <img class="index-img"  src="mythopedia.png">
+     </div>
+ </div>
++
++<div class="scrollmenu">
++    <a href="#home"><img src="mythopedia-aztec-mythology.png">  Azték</a>
++    <a href="#news"> <img src="mythopedia-egyptian-mythology.png"> Egyiptomi</a>
++    <a href="#contact"> <img src="mythopedia-greek-mythology.png"> Görög</a>
++    <a href="#support"> <img src="mythopedia-japanese-mythology.png"> Japán</a>
++    <a href="#blog"> <img src="mythopedia-celtic-mythology.png"> Kelta</a>
++    <a href="#tools"> <img src="mythopedia-chinese-mythology.png"> Kínai</a>
++    <a href="#base"> <img src="mythopedia-roman-mythology.png"> Római</a>
++    <a href="#custom"> <img src="mythopedia-norse-mythology.png"> Skandináv</a>
++
++</div>
++
++<div class="title">
++
++    <h2>Az Antik Világ </h2>
++    <h4> </h4>
++
++</div>
++
++<div class="cultures">
++    <div class="lg.round.img row">
++        <div class="col-sm-4"><h3> Kelta </h3></div>
++        <div class="col-sm-4"><h3> Kínai </h3></div>
++        <div class="col-sm-4"><h3> Skandináv </h3></div>
++
++    </div>
++
++    <div class="sm.round.img row">
++        <div class="col-sm-4 col-lg-2"><h3> Azték </h3></div>   <! small képernyő felett egymás mellett 3 jelenik meg, large képernyő felett 6 jelenik meg egymás mellett>
++        <div class="col-sm-4 col-lg-2"><h3> Egyiptomi </h3></div>
++        <div class="col-sm-4 col-lg-2"><h3> Görög </h3></div>
++        <div class="col-sm-4 col-lg-2"><h3> Hindu </h3></div>
++        <div class="col-sm-4 col-lg-2"><h3> Japán </h3></div>
++        <div class="col-sm-4 col-lg-2"><h3> Római </h3></div>
++    </div>
++    <svg viewBox="0 0 32 32" width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" class="sc-1uo8m52-0 jjdztN"><path fill="currentColor" d="M32 26.585 19.666 5.221 17.22 9.458 12.337 1 0 22.367h4.881L0 30.823h24.673l-2.446-4.238H32zm-1.69-.975H9.02l4.746-8.22.449.776-3.849 6.667h18.599l-9.3-16.107-3.875 6.711-.448-.776 4.324-7.489L30.31 25.61zm-10.364 2.483H4.726l3.307-5.726h1.733l-2.435 4.218h11.745l.87 1.508zm-7.61-18.638L6.457 19.639h-1.73l7.61-13.181 3.307 5.729-.865 1.498-2.443-4.23zm0 1.951 4.753 8.233h-.898l-3.854-6.677-3.855 6.677h-.898l4.752-8.233zm.58 10.961h3.724l.86 1.49h-5.444l.86-1.49zm5.71 1.49-.86-1.49h.899l.86 1.49h-.898zm2.026 0-.86-1.49h4.881l-5.879-10.181.872-1.51 7.61 13.181h-6.624zm-2.42-10.696 4.752 8.23h-9.505l.449-.777h7.708l-3.854-6.675.45-.778zm-3.167 6.478h-.574l.287-.497.287.497zm2.154-4.725 2.727 4.725h-1.73l-1.862-3.226.865-1.499zm-4.883 0 .867 1.5-1.861 3.225H9.608l2.728-4.726zm0-11.963 4.32 7.482-.449.778-3.87-6.704-9.3 16.107h7.741l-.449.778H1.69l10.647-18.44zm10.647 26.896H1.69l4.319-7.48h.898l-3.87 6.703h18.6l-1.435-2.484h.898l1.883 3.262z"></path></svg>
++        <path fill="currentColor" d="M32 26.585 19.666 5.221 17.22 9.458 12.337 1 0 22.367h4.881L0 30.823h24.673l-2.446-4.238H32zm-1.69-.975H9.02l4.746-8.22.449.776-3.849 6.667h18.599l-9.3-16.107-3.875 6.711-.448-.776 4.324-7.489L30.31 25.61zm-10.364 2.483H4.726l3.307-5.726h1.733l-2.435 4.218h11.745l.87 1.508zm-7.61-18.638L6.457 19.639h-1.73l7.61-13.181 3.307 5.729-.865 1.498-2.443-4.23zm0 1.951 4.753 8.233h-.898l-3.854-6.677-3.855 6.677h-.898l4.752-8.233zm.58 10.961h3.724l.86 1.49h-5.444l.86-1.49zm5.71 1.49-.86-1.49h.899l.86 1.49h-.898zm2.026 0-.86-1.49h4.881l-5.879-10.181.872-1.51 7.61 13.181h-6.624zm-2.42-10.696 4.752 8.23h-9.505l.449-.777h7.708l-3.854-6.675.45-.778zm-3.167 6.478h-.574l.287-.497.287.497zm2.154-4.725 2.727 4.725h-1.73l-1.862-3.226.865-1.499zm-4.883 0 .867 1.5-1.861 3.225H9.608l2.728-4.726zm0-11.963 4.32 7.482-.449.778-3.87-6.704-9.3 16.107h7.741l-.449.778H1.69l10.647-18.44zm10.647 26.896H1.69l4.319-7.48h.898l-3.87 6.703h18.6l-1.435-2.484h.898l1.883 3.262z"></path>
++    </svg>
++</div>
+ 
+ </body>
+ </html>
+\ No newline at end of file
+Index: style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/style.css b/style.css
+new file mode 100644
+--- /dev/null	(date 1641305982274)
++++ b/style.css	(date 1641305982274)
+@@ -0,0 +1,24 @@
++.header, .nav{
++    background-color: rgb(18, 52, 63);
++}
++
++div.scrollmenu {
++
++    overflow: auto;
++    white-space: nowrap;
++    width: 70%;
++    margin: 0 auto;
++}
++
++div.scrollmenu a {
++    display: inline-block;
++    color: black;
++    text-align: center;
++    padding: 14px;
++    text-decoration: none;
++    width: 30%;
++}
++
++div.scrollmenu a:hover {
++    background-color: #FFCE33;
++}
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"b58f20bd-26f0-4454-a0ab-e56b458d83c1\" name=\"Changes\" comment=\"index.html header &quot;bootstrap&quot;-elve\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ComposerSettings\">\n    <execution />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"CSS File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"22P794aFLFVtH174dzMHnlE4EIc\" />\n  <component name=\"ProjectLevelVcsManager\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"list.type.of.created.stylesheet\" value=\"CSS\" />\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"b58f20bd-26f0-4454-a0ab-e56b458d83c1\" name=\"Changes\" comment=\"index.html html done until header\" />\n      <created>1639727217370</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1639727217370</updated>\n      <workItem from=\"1639727218398\" duration=\"17000\" />\n      <workItem from=\"1639830153751\" duration=\"39000\" />\n      <workItem from=\"1639830233913\" duration=\"2095000\" />\n      <workItem from=\"1640022862718\" duration=\"307000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"index.html header &quot;bootstrap&quot;-elve\">\n      <created>1640023025174</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1640023025174</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"2\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"index.html header &quot;bootstrap&quot;-elve\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"index.html header &quot;bootstrap&quot;-elve\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision efdcee645f2299732f44a44bdfaf25695d76a840)
++++ b/.idea/workspace.xml	(date 1641308837197)
+@@ -4,7 +4,13 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="index.html header &quot;bootstrap&quot;-elve" />
++    <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="index.html header java">
++      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
++    </list>
++    <list id="7f834bd2-c05f-41d1-98fa-cd8a00fae5a3" name="Changes by amartain" comment="" />
++    <list id="ed599d30-b024-4ce7-9697-b631cf327757" name="Changes by noher" comment="" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -38,6 +44,7 @@
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
++    <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
+     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+     <property name="list.type.of.created.stylesheet" value="CSS" />
+     <property name="node.js.detected.package.eslint" value="true" />
+@@ -45,6 +52,12 @@
+     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+     <property name="vue.rearranger.settings.migration" value="true" />
++  </component>
++  <component name="RecentsManager">
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="$PROJECT_DIR$" />
++      <recent name="$PROJECT_DIR$/img" />
++    </key>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+@@ -58,6 +71,7 @@
+       <workItem from="1639830153751" duration="39000" />
+       <workItem from="1639830233913" duration="2095000" />
+       <workItem from="1640022862718" duration="307000" />
++      <workItem from="1641300813179" duration="8022000" />
+     </task>
+     <task id="LOCAL-00001" summary="index.html header &quot;bootstrap&quot;-elve">
+       <created>1640023025174</created>
+@@ -66,7 +80,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1640023025174</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="index.html header java">
++      <created>1641301090818</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1641301090818</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -85,6 +106,7 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="index.html header &quot;bootstrap&quot;-elve" />
+-    <option name="LAST_COMMIT_MESSAGE" value="index.html header &quot;bootstrap&quot;-elve" />
++    <MESSAGE value="index.html header java" />
++    <option name="LAST_COMMIT_MESSAGE" value="index.html header java" />
+   </component>
+ </project>
+\ No newline at end of file
