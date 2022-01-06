@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/fonts/Baron Neue Black Italic.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Baron Neue Black.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Baron Neue Bold Italic.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Baron Neue Bold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Baron Neue Italic.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Baron Neue.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Baron Personal_EULA_license.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Baron_Specimen.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webfonts/baron_neue-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webfonts/baron_neue-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webfonts/baron_neue-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webfonts/generator_config.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webfonts/specimen_files/grid_12-825-55-15.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webfonts/specimen_files/specimen_stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webfonts/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chang-e-chinese-goddess-of-the-moon.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chinese.html" beforeDir="false" afterPath="$PROJECT_DIR$/chinese.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -97,7 +83,7 @@
       <workItem from="1641459399725" duration="20000" />
       <workItem from="1641459432979" duration="5902000" />
       <workItem from="1641465744664" duration="2600000" />
-      <workItem from="1641469831193" duration="2247000" />
+      <workItem from="1641469831193" duration="5665000" />
     </task>
     <task id="LOCAL-00001" summary="index.html header &quot;bootstrap&quot;-elve">
       <created>1640023025174</created>
@@ -134,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641460311353</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="css haladás, fonts, table etc.">
+      <created>1641472219158</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1641472219158</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +150,7 @@
     <MESSAGE value="index.html mitológia képek hozzáad" />
     <MESSAGE value="chinese.html added&#10;chinese.html main img added" />
     <MESSAGE value="style added again" />
-    <option name="LAST_COMMIT_MESSAGE" value="style added again" />
+    <MESSAGE value="css haladás, fonts, table etc." />
+    <option name="LAST_COMMIT_MESSAGE" value="css haladás, fonts, table etc." />
   </component>
 </project>

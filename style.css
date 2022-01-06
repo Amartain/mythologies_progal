@@ -76,7 +76,17 @@ body {
         text-align: center;
 
     }
+    .img-fluid{
+        display: block;
+        margin: 0 auto;
+    }
 }
+@media (max-width: 1300px){
+    h1{
+        font-size: 4.25rem;
+    }
+}
+
 
 a  {
    all: unset;
@@ -125,14 +135,47 @@ table {
 
 .our-table tr {
     padding: 0.5rem;
+    margin: 0.5rem;
 }
 
-.our-table, tr, td {
-    border: 0.0625rem solid rgb(211, 217, 219) !important;
+.our-table tr:hover {
+    background: rgb(247, 241, 228);
+}
+
+.our-table, tr{
+    border: 0.0625rem solid rgb(211, 217, 219) ;
     border-collapse: collapse;
     padding: 1rem 1rem;
 }
 
+td{
+    border-bottom: 0.0625rem solid rgb(211, 217, 219) ;
+    border-collapse: collapse;
+    padding: 1rem 1rem;
+}
+
+
 .font-md {
     font-size: 2rem;
+}
+
+.sm-img-container {
+    width: 20%;
+}
+
+.circle-img {
+    border-style: solid;
+    border-color: rgb(18, 52, 63);
+    border-radius: 50%;
+}
+
+.circle-img:hover{
+    border-style: solid;
+    border-color: rgb(255, 199, 44);
+    border-radius: 50%;
+    transform: rotate(
+            -20deg
+    );
+    transform-origin: center center;
+    transition: all 0.45s
 }

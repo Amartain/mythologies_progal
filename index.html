@@ -10,14 +10,14 @@
 </head>
 <body>
 
-<div class="container-fluid">   <! teljes szélességű container, bármekkora is a kijelző>
+<div class="container-fluid backgroundc">   <! teljes szélességű container, bármekkora is a kijelző>
     <ul class="navbar nav">    <! navigációs sáv https://www.w3schools.com/bootstrap5/bootstrap_navbar.php>
         <li class="nav-item">   <! logo, név>
-            <a class="logo"><img class="logo-img" src="favicon.png"> Mithopédia </a>
+            <a class="logo" href="index.html"><img class="logo-img" src="favicon.png"> MITHOPÉDIA </a>
         </li>
         <li class="nav-item">   <! dropdown menü>
             <div class="btn-group">
-                <button type="buttond" class="btn dropdown-toggle" data-bs-toggle="dropdown">Mitológiák</button> <! ehhez sztem kell js, szoval máshogy kellene megcsinálni>
+                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">Mitológiák</button>
                 <ul class="dropdown-menu">  <! almenü>
                     <li><a class="dropdown-item" href="#">Azték</a></li>
                     <li><a class="dropdown-item" href="#">Egyiptomi</a></li>
@@ -25,7 +25,7 @@
                     <li><a class="dropdown-item" href="#">Hindu</a></li>
                     <li><a class="dropdown-item" href="#">Japán</a></li>
                     <li><a class="dropdown-item" href="#">Kelta</a></li>
-                    <li><a class="dropdown-item" href="#">Kínai</a></li>
+                    <li><a class="dropdown-item" href="chinese.html">Kínai</a></li>
                     <li><a class="dropdown-item" href="#">Római</a></li>
                     <li><a class="dropdown-item" href="#">Skandináv</a></li>
                     <li><a class="dropdown-item" href="#">Szláv</a></li>
@@ -36,19 +36,18 @@
             <a class="nav-link" href="#">Rólunk </a>
         </li>
     </ul>
-    <div class="row header">    <! row: a grid kezdete, egy sor, ez tartalmaz 12 oszlopot, amiket elosztunk 6-6 nak: https://www.w3schools.com/bootstrap5/bootstrap_grid_basic.php>
-        <div class="col-sm-6">  <! grid - első 6 oszlop (col)>
-            <h1>Mitológiai <br>Enciklopédia</h1>
-            <p class=".d-none .d-lg-block .subtitle">The mythological traditions of the various regions, periods, and peoples of China.</p>
+    <div class="row header ">    <! row: a grid kezdete>
+        <div class="col-lg-6 justify-content-center align-self-center headtitle">  <! grid - első 6 oszlop (col)>
+            <h1 >Mitológiai<br>Enciklopédia</h1>
+            <p class="texthidden subtitle" style="width: 70%"> Fedezze fel az ősi civilizációk isteneit, istennőit, mítoszait, legendáit és kozmológiáját</p>
+        </div>
+        <div class="col-lg-6" > <! grid - következő 6 oszlop (col)>
+            <img class="img-fluid"  src="mythopedia.png" >
         </div>
 
-        <div class="col-sm-6" > <! grid - következő 6 oszlop (col)>
-            <img class="img-fluid"  src="mythopedia.png">
-        </div>
+
     </div>
 </div>
-
-
 
 </body>
 </html>
