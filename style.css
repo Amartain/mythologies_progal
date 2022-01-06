@@ -302,3 +302,31 @@ br {
 .nav-link-alt {
     color: black !important;
 }
+
+
+.burgermenu{
+    display: none;
+}
+.menu-lg{
+    display: block;
+}
+
+
+
+.burgermenu{
+    display: block;
+}
+.dropdown-menu{
+    background-color: rgb(18, 52, 63);
+    color: white;
+}
+.dropdown-item{
+    color: white;
+    font-size: 1.35rem;
+}
+.menu-lg{
+    display: none;
+}
+.container-fluid{
+    padding: 0.5% 5%;
+}
