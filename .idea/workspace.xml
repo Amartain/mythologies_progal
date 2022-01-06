@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/8immortals.html" afterDir="false" />
+    <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="celtic image resize">
+      <change afterPath="$PROJECT_DIR$/mythopedia-celtic-mythology-lg.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/celtic.html" beforeDir="false" afterPath="$PROJECT_DIR$/celtic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <list id="feaf54eb-4085-47b2-9782-79dbf0ca3756" name="Changes by amartain" comment="index.html images" />
@@ -66,6 +68,9 @@
       <workItem from="1639830233913" duration="2095000" />
       <workItem from="1640022862718" duration="307000" />
       <workItem from="1641395637188" duration="380000" />
+      <workItem from="1641483322146" duration="1240000" />
+      <workItem from="1641490556264" duration="37000" />
+      <workItem from="1641490594197" duration="7792000" />
     </task>
     <task id="LOCAL-00001" summary="index.html header &quot;bootstrap&quot;-elve">
       <created>1640023025174</created>
@@ -88,35 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641481637849</updated>
     </task>
-    <task id="LOCAL-00004" summary="undercons.html added">
-      <created>1641488433170</created>
+    <task id="LOCAL-00004" summary="images added">
+      <created>1641483476514</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1641488433170</updated>
+      <updated>1641483476514</updated>
     </task>
-    <task id="LOCAL-00005" summary="undercons.html added">
-      <created>1641488710334</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1641488710334</updated>
-    </task>
-    <task id="LOCAL-00006" summary="norse.html &amp; celtic.html updated to fit existing css">
-      <created>1641488875666</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1641488875666</updated>
-    </task>
-    <task id="LOCAL-00007" summary="linkek javítva menűben">
-      <created>1641488985637</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1641488985637</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,9 +122,7 @@
     <MESSAGE value="alap html kész" />
     <MESSAGE value="css elkezdve" />
     <MESSAGE value="index.html images" />
-    <MESSAGE value="undercons.html added" />
-    <MESSAGE value="norse.html &amp; celtic.html updated to fit existing css" />
-    <MESSAGE value="linkek javítva menűben" />
-    <option name="LAST_COMMIT_MESSAGE" value="linkek javítva menűben" />
+    <MESSAGE value="images added" />
+    <option name="LAST_COMMIT_MESSAGE" value="images added" />
   </component>
 </project>
