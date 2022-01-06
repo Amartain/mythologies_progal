@@ -76,6 +76,18 @@ body {
 .menu-lg{
     display: block;
 }
+.dropdown-menu{
+    background-color: #FFCE33;
+}
+.dropdown-menu a:hover{
+    color: white;
+    background-color: unset;
+}
+.dropdown-item{
+    color: rgb(18, 52, 63);
+    font-size: 1.35rem;
+    width: 8rem;
+}
 
 
 @media (min-width: 992px){
@@ -104,10 +116,19 @@ body {
         background-color: rgb(18, 52, 63);
         color: white;
     }
-    .dropdown-item{
-        color: white;
-        font-size: 1.35rem;
+    .dropdown-menu{
+        background-color: #FFCE33;
     }
+    .dropdown-menu a:hover{
+        color: white;
+        background-color: unset;
+    }
+    .dropdown-item{
+        color: rgb(18, 52, 63);
+        font-size: 1.35rem;
+        width: 8rem;
+    }
+
     .menu-lg{
         display: none;
     }
@@ -215,14 +236,11 @@ td{
     transition: all 0.45s
 }
 
-
 .lg-rounded-img {
-    position: relative;
-    top: 50%;
-    left: 50%;
     margin: 0px auto;
     display: inline-block;
     border-radius: 7.5rem;
+    max-width: 80%;
 
 }
 

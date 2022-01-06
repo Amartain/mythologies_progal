@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/8immortals.html" afterDir="false" />
+    <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="style, index">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -66,6 +65,9 @@
       <workItem from="1639830233913" duration="2095000" />
       <workItem from="1640022862718" duration="307000" />
       <workItem from="1641395637188" duration="380000" />
+      <workItem from="1641483322146" duration="1240000" />
+      <workItem from="1641490556264" duration="37000" />
+      <workItem from="1641490594197" duration="10778000" />
     </task>
     <task id="LOCAL-00001" summary="index.html header &quot;bootstrap&quot;-elve">
       <created>1640023025174</created>
@@ -88,35 +90,42 @@
       <option name="project" value="LOCAL" />
       <updated>1641481637849</updated>
     </task>
-    <task id="LOCAL-00004" summary="undercons.html added">
-      <created>1641488433170</created>
+    <task id="LOCAL-00004" summary="images added">
+      <created>1641483476514</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1641488433170</updated>
+      <updated>1641483476514</updated>
     </task>
-    <task id="LOCAL-00005" summary="undercons.html added">
-      <created>1641488710334</created>
+    <task id="LOCAL-00005" summary="hamburgermenu: index.html, celtic.html&#10;celtic.html almost done">
+      <created>1641501331423</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1641488710334</updated>
+      <updated>1641501331423</updated>
     </task>
-    <task id="LOCAL-00006" summary="norse.html &amp; celtic.html updated to fit existing css">
-      <created>1641488875666</created>
+    <task id="LOCAL-00006" summary="hamburgermenu: index.html, celtic.html&#10;celtic.html almost done">
+      <created>1641501397319</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1641488875666</updated>
+      <updated>1641501397319</updated>
     </task>
-    <task id="LOCAL-00007" summary="linkek javítva menűben">
-      <created>1641488985637</created>
+    <task id="LOCAL-00007" summary="hamburgermenu: norse.html, chinese.html">
+      <created>1641501575421</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1641488985637</updated>
+      <updated>1641501575421</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="style, index">
+      <created>1641507118273</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1641507118273</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,9 +147,11 @@
     <MESSAGE value="alap html kész" />
     <MESSAGE value="css elkezdve" />
     <MESSAGE value="index.html images" />
-    <MESSAGE value="undercons.html added" />
-    <MESSAGE value="norse.html &amp; celtic.html updated to fit existing css" />
-    <MESSAGE value="linkek javítva menűben" />
-    <option name="LAST_COMMIT_MESSAGE" value="linkek javítva menűben" />
+    <MESSAGE value="images added" />
+    <MESSAGE value="hamburgermenu: index.html, celtic.html&#10;celtic.html almost done" />
+    <MESSAGE value="hamburgermenu: norse.html, chinese.html" />
+    <MESSAGE value="norse.html képek nélkül" />
+    <MESSAGE value="style, index" />
+    <option name="LAST_COMMIT_MESSAGE" value="style, index" />
   </component>
 </project>
