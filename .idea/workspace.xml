@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="style, index">
+    <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="index.html merge javítva">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/norse.html" beforeDir="false" afterPath="$PROJECT_DIR$/norse.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <list id="feaf54eb-4085-47b2-9782-79dbf0ca3756" name="Changes by amartain" comment="index.html images" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +25,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -70,6 +67,7 @@
       <workItem from="1641483322146" duration="1240000" />
       <workItem from="1641490556264" duration="37000" />
       <workItem from="1641490594197" duration="10778000" />
+      <workItem from="1641538965985" duration="2908000" />
     </task>
     <task id="LOCAL-00001" summary="index.html header &quot;bootstrap&quot;-elve">
       <created>1640023025174</created>
@@ -127,7 +125,28 @@
       <option name="project" value="LOCAL" />
       <updated>1641507118273</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="style, index">
+      <created>1641507660882</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1641507660882</updated>
+    </task>
+    <task id="LOCAL-00010" summary="style.css merge javítva">
+      <created>1641540797780</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1641540797780</updated>
+    </task>
+    <task id="LOCAL-00011" summary="index.html merge javítva">
+      <created>1641541233000</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1641541233000</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +173,8 @@
     <MESSAGE value="hamburgermenu: norse.html, chinese.html" />
     <MESSAGE value="norse.html képek nélkül" />
     <MESSAGE value="style, index" />
-    <option name="LAST_COMMIT_MESSAGE" value="style, index" />
+    <MESSAGE value="style.css merge javítva" />
+    <MESSAGE value="index.html merge javítva" />
+    <option name="LAST_COMMIT_MESSAGE" value="index.html merge javítva" />
   </component>
 </project>
