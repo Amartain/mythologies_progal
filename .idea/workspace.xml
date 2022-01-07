@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="style, index">
+      <change afterPath="$PROJECT_DIR$/styles_merged.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -68,6 +69,7 @@
       <workItem from="1641483322146" duration="1240000" />
       <workItem from="1641490556264" duration="37000" />
       <workItem from="1641490594197" duration="10778000" />
+      <workItem from="1641538965985" duration="1795000" />
     </task>
     <task id="LOCAL-00001" summary="index.html header &quot;bootstrap&quot;-elve">
       <created>1640023025174</created>
@@ -125,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641507118273</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="style, index">
+      <created>1641507660882</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1641507660882</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
