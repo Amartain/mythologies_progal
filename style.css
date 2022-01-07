@@ -467,7 +467,14 @@ br {
     color: white;
 }
 
+a:hover {
+    color: #FFCE33;
+}
+/* KAMILLA CSS */
+
+
 /*ANITA CSS*/
 .scrollmenu img{
     background-color: rgb(18, 52, 63);
 }
+/*ANITA CSS*/
