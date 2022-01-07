@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="index.html merge javítva">
+    <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="norse.html kész">
+      <change afterPath="$PROJECT_DIR$/norse_al.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freyr-norse-god-of-peace_lg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/freyr-norse-god-of-peace_lg.jpg" afterDir="false" />
     </list>
     <list id="feaf54eb-4085-47b2-9782-79dbf0ca3756" name="Changes by amartain" comment="index.html images" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +70,7 @@
       <workItem from="1641490556264" duration="37000" />
       <workItem from="1641490594197" duration="10778000" />
       <workItem from="1641538965985" duration="2908000" />
+      <workItem from="1641548907954" duration="793000" />
     </task>
     <task id="LOCAL-00001" summary="index.html header &quot;bootstrap&quot;-elve">
       <created>1640023025174</created>
