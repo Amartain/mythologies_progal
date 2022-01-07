@@ -4,6 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="norse.html kész">
+      <change afterPath="$PROJECT_DIR$/norse_al.html" afterDir="false" />
     <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="morrigan.html done" />
     <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="Revert &quot;style, index&quot;&#10;&#10;This reverts commit 3bd71148">
       <change afterPath="$PROJECT_DIR$/save_kamilla.css" afterDir="false" />
@@ -87,6 +89,7 @@
       <workItem from="1641490556264" duration="37000" />
       <workItem from="1641490594197" duration="10778000" />
       <workItem from="1641538965985" duration="2908000" />
+      <workItem from="1641548907954" duration="793000" />
     </task>
     <task id="LOCAL-00001" summary="index.html header &quot;bootstrap&quot;-elve">
       <created>1640023025174</created>
