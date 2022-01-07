@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="norse.html, celtic.html merge javítva">
-      <change afterPath="$PROJECT_DIR$/morrigan.html" afterDir="false" />
+    <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="Revert &quot;style, index&quot;&#10;&#10;This reverts commit 3bd71148">
+      <change afterPath="$PROJECT_DIR$/save_kamilla.css" afterDir="false" />
+    <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="index.html merge javítva">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8immortals.html" beforeDir="false" afterPath="$PROJECT_DIR$/8immortals.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/celtic.html" beforeDir="false" afterPath="$PROJECT_DIR$/celtic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinese.html" beforeDir="false" afterPath="$PROJECT_DIR$/chinese.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/norse.html" beforeDir="false" afterPath="$PROJECT_DIR$/norse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/undercons.html" beforeDir="false" afterPath="$PROJECT_DIR$/undercons.html" afterDir="false" />
     </list>
     <list id="feaf54eb-4085-47b2-9782-79dbf0ca3756" name="Changes by amartain" comment="index.html images" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,13 +28,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="KEEP" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -44,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mythologies_progal (copy)" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -69,6 +79,12 @@
       <workItem from="1641490556264" duration="37000" />
       <workItem from="1641490594197" duration="10778000" />
       <workItem from="1641538965985" duration="8861000" />
+      <workItem from="1641539260273" duration="1079000" />
+      <workItem from="1641540647563" duration="5044000" />
+      <workItem from="1641483322146" duration="1240000" />
+      <workItem from="1641490556264" duration="37000" />
+      <workItem from="1641490594197" duration="10778000" />
+      <workItem from="1641538965985" duration="2908000" />
     </task>
     <task id="LOCAL-00001" summary="index.html header &quot;bootstrap&quot;-elve">
       <created>1640023025174</created>
@@ -125,6 +141,14 @@
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
       <updated>1641507118273</updated>
+      <updated>1641501575421</updated>
+    </task>
+    <task id="LOCAL-00008" summary="style, index">
+      <created>1641507118273</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1641507118273</updated>
     </task>
     <task id="LOCAL-00009" summary="style, index">
       <created>1641507660882</created>
@@ -155,6 +179,8 @@
       <updated>1641541967187</updated>
     </task>
     <option name="localTasksCounter" value="13" />
+    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +202,12 @@
     <MESSAGE value="alap html kész" />
     <MESSAGE value="css elkezdve" />
     <MESSAGE value="index.html images" />
+    <MESSAGE value="images added" />
+    <MESSAGE value="hamburgermenu: index.html, celtic.html&#10;celtic.html almost done" />
+    <MESSAGE value="hamburgermenu: norse.html, chinese.html" />
+    <MESSAGE value="norse.html képek nélkül" />
+    <MESSAGE value="style, index" />
+    <option name="LAST_COMMIT_MESSAGE" value="style, index" />
     <MESSAGE value="images added" />
     <MESSAGE value="hamburgermenu: index.html, celtic.html&#10;celtic.html almost done" />
     <MESSAGE value="hamburgermenu: norse.html, chinese.html" />
