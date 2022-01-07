@@ -1,0 +1,151 @@
+Index: style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>@font-face {\n    font-family: 'baron_neueregular';\n    src: url('webfonts/baron_neue-webfont.woff2') format('woff2'),\n    url('webfonts/baron_neue-webfont.woff') format('woff');\n    font-weight: normal;\n    font-style: normal;\n}\n\n\n.container-fluid{\n    padding: 0.5% 15%;\n}\n\ndiv.scrollmenu {\n\n    overflow: auto;\n    white-space: nowrap;\n    width: 70%;\n    margin: 0 auto;\n}\n\ndiv.scrollmenu a {\n    display: inline-block;\n    color: black;\n    text-align: center;\n    padding: 14px;\n    text-decoration: none;\n    width: 20%;\n}\n\ndiv.scrollmenu a:hover {\n    background-color: #FFCE33;\n}\n\nh1{\n    color: white;\n    font-weight: 515;\n    line-height: 100%;\n    font-size: 5.5rem;\n    font-family: \"Queens Condensed\", Tahoma,  Serif;\n}\n\nh2{\n    color: black;\n    font-weight: 515;\n    line-height: 100%;\n    font-size: 5.5rem;\n    font-family: \"Queens Condensed\", Tahoma,  Serif;\n    text-align: center;\n}\n\n\n.subtitle {\n    font-style: italic;\n    color: white;\n}\n\nbody {\n    font-family: \"Times New Roman\", Times, Serif;\n}\n\n.texthidden{\n    display: none;\n}\n\n.content {\n    background-color: white !important;\n    margin: auto;\n    width: 95%;\n    text-align: justify;\n\n}\n.burgermenu{\n    display: none;\n}\n.menu-lg{\n    display: block;\n}\n\n\n@media (min-width: 992px){\n    .texthidden{\n        display: block;\n    }\n    .content{\n        width: 60%;\n    }\n\n}\n\n@media (max-width: 992px) {\n    .headtitle {\n        text-align: center;\n\n    }\n    .img-fluid{\n        display: block;\n        margin: 0 auto;\n    }\n    .burgermenu{\n        display: block;\n    }\n    .dropdown-menu{\n        background-color: rgb(18, 52, 63);\n        color: white;\n    }\n    .dropdown-item{\n        color: white;\n        font-size: 1.35rem;\n    }\n    .menu-lg{\n        display: none;\n    }\n    .container-fluid{\n        padding: 0.5% 5%;\n    }\n}\n@media (max-width: 1300px){\n    h1{\n        font-size: 4.25rem;\n    }\n}\n\n\na  {\n   all: unset;\n}\n\n.nav-link {\n    color: white !important;\n}\n\n\n.logo {\n    font-family: 'baron_neueregular' !important;\n    color: white;\n\n}\n\n.btn {\n    color: white !important;\n}\n\n.backgroundc {\n    background-color: rgb(18, 52, 63);\n}\n\n\n.md-txt {\n    font-size: 1.35rem;\n    padding: 5rem 0px;\n}\n\n.bold {\n    font-weight: bold;\n}\n\ntable {\n    font-size: 1.125rem;\n}\n\n.our-table {\n    border: 0.0625rem solid rgb(211, 217, 219) !important;\n    width: 95%;\n    height: auto;\n    margin: 1rem 0px;\n    border-radius: 0.125rem;\n}\n\n.our-table tr {\n    padding: 0.5rem;\n    margin: 0.5rem;\n}\n\n.our-table tr:hover {\n    background: rgb(247, 241, 228);\n}\n\n.our-table, tr{\n    border: 0.0625rem solid rgb(211, 217, 219) ;\n    border-collapse: collapse;\n    padding: 1rem 1rem;\n}\n\ntd{\n    border-bottom: 0.0625rem solid rgb(211, 217, 219) ;\n    border-collapse: collapse;\n    padding: 1rem 1rem;\n}\n\n\n.font-md {\n    font-size: 2rem;\n}\n\n.sm-img-container {\n    width: 20%;\n}\n\n.circle-img {\n    border-style: solid;\n    border-color: rgb(18, 52, 63);\n    border-radius: 50%;\n    max-width: 50%;\n}\n\n.circle-img:hover{\n    border-style: solid;\n    border-color: rgb(255, 199, 44);\n    border-radius: 50%;\n    transform: rotate(\n            -20deg\n    );\n    transform-origin: center center;\n    transition: all 0.45s\n}\n\n.lg-rounded-img1 {\n\n    margin: 0px auto;\n    display: block;\n    border-radius: 7.5rem;\n    max-width: 80%;\n\n}\n\n.lg-rounded-img {\n    position: relative;\n    top: 50%;\n    left: 50%;\n    margin: 0px auto;\n    display: inline-block;\n    border-radius: 7.5rem;\n    max-width: 50%;\n\n}\n\n.large-img {\n    padding: 1.5rem;\n    aspect-ratio: 123 / 150;\n    text-align: center;\n}\n.small-img img{\n    max-width: 90%;\n    border-radius: 50%;\n}\n.small-img{\n    text-align: center;\n    margin-top: 10%;\n}\n\n\n.alt-bgc {\n    background-color: rgb(252, 250, 245);\n}\n.burger{\n    color: white;\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/style.css b/style.css
+--- a/style.css	(revision d46230d8bc8625dede042d313a3cc550943601cf)
++++ b/style.css	(date 1641506709471)
+@@ -54,6 +54,10 @@
+     font-style: italic;
+     color: white;
+ }
++.dropdown-menu a:hover{
++    background-color: #FFCE33;
++    color: white;
++}
+ 
+ body {
+     font-family: "Times New Roman", Times, Serif;
+@@ -76,6 +80,9 @@
+ .menu-lg{
+     display: block;
+ }
++.dropdown-menu{
++    background-color: #FFCE33;
++}
+ 
+ 
+ @media (min-width: 992px){
+@@ -100,14 +107,11 @@
+     .burgermenu{
+         display: block;
+     }
+-    .dropdown-menu{
+-        background-color: rgb(18, 52, 63);
+-        color: white;
+-    }
+-    .dropdown-item{
+-        color: white;
++    .burgermenu .dropdown-item{
++        color: rgb(18, 52, 63);
+         font-size: 1.35rem;
+     }
++
+     .menu-lg{
+         display: none;
+     }
+@@ -140,6 +144,11 @@
+ .btn {
+     color: white !important;
+ }
++.dropdown-item{
++    width: 8rem;
++    color: rgb(18, 52, 63);
++    font-size: 1.35rem;
++}
+ 
+ .backgroundc {
+     background-color: rgb(18, 52, 63);
+@@ -215,8 +224,7 @@
+     transition: all 0.45s
+ }
+ 
+-.lg-rounded-img1 {
+-
++.lg-rounded-img {
+     margin: 0px auto;
+     display: block;
+     border-radius: 7.5rem;
+@@ -224,17 +232,6 @@
+ 
+ }
+ 
+-.lg-rounded-img {
+-    position: relative;
+-    top: 50%;
+-    left: 50%;
+-    margin: 0px auto;
+-    display: inline-block;
+-    border-radius: 7.5rem;
+-    max-width: 50%;
+-
+-}
+-
+ .large-img {
+     padding: 1.5rem;
+     aspect-ratio: 123 / 150;
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"hu\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Mitológiák </title>\n    <link rel=\"icon\" type=\"image/png\" href=\"favicon.png\">\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.css\" rel=\"stylesheet\">   <! bootstrap style belinkelése, ha nem akarjuk letölteni>\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js\"></script> <! javasript>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n</head>\n<body>\n\n\n<div class=\"container-fluid backgroundc\">   <! teljes szélességű container, bármekkora is a kijelző>\n    <ul class=\"navbar nav\">    <! navigációs sáv https://www.w3schools.com/bootstrap5/bootstrap_navbar.php>\n        <li class=\"nav-item\">   <! logo, név>\n            <a class=\"logo\" href=\"index.html\"><img class=\"logo-img\" src=\"favicon.png\"> MITHOPÉDIA </a>\n        </li>\n        <li class=\"nav-item burgermenu\">   <! hamburger menü>\n        <div class=\"btn-group dropstart\">\n            <button type=\"button\" class=\"btn\" data-bs-toggle=\"dropdown\"><svg viewBox=\"0 0 16 16\" width=\"16\" height=\"16\" xmlns=\"http://www.w3.org/2000/svg\" class=\"sc-1uo8m52-0 dxxNML burger\"><rect x=\"4\" y=\"4\" width=\"12\" height=\"1.1\" fill=\"currentColor\"></rect><rect x=\"0\" y=\"8\" width=\"16\" height=\"1.1\" fill=\"currentColor\"></rect><rect x=\"8\" y=\"12\" width=\"8\" height=\"1.1\" fill=\"currentColor\"></rect></svg></button>\n                <ul class=\"dropdown-menu\">  <! almenü>\n                    <li><a class=\"dropdown-item\" href=\"undercons.html\">Azték</a></li>\n                    <li><a class=\"dropdown-item\" href=\"undercons.html\">Egyiptomi</a></li>\n                    <li><a class=\"dropdown-item\" href=\"undercons.html\">Görög</a></li>\n                    <li><a class=\"dropdown-item\" href=\"undercons.html\">Hindu</a></li>\n                    <li><a class=\"dropdown-item\" href=\"undercons.html\">Japán</a></li>\n                    <li><a class=\"dropdown-item\" href=\"celtic.html\">Kelta</a></li>\n                    <li><a class=\"dropdown-item\" href=\"chinese.html\">Kínai</a></li>\n                    <li><a class=\"dropdown-item\" href=\"undercons.html\">Római</a></li>\n                    <li><a class=\"dropdown-item\" href=\"norse.html\">Skandináv</a></li>\n                    <li><a class=\"dropdown-item\" href=\"undercons.html\">Szláv</a></li>\n                    <li><a class=\"dropdown-item\" href=\"undercons.html\">Rólunk </a></li>\n                </ul>\n        </div>\n        </li>\n        <li class=\"nav-item menu-lg\">   <! dropdown menü>\n        <div class=\"btn-group\">\n            <button type=\"button\" class=\"btn dropdown-toggle\" data-bs-toggle=\"dropdown\">Mitológiák</button>\n            <ul class=\"dropdown-menu\">  <! almenü>\n                <li><a class=\"dropdown-item\" href=\"undercons.html\">Azték</a></li>\n                <li><a class=\"dropdown-item\" href=\"undercons.html\">Egyiptomi</a></li>\n                <li><a class=\"dropdown-item\" href=\"undercons.html\">Görög</a></li>\n                <li><a class=\"dropdown-item\" href=\"undercons.html\">Hindu</a></li>\n                <li><a class=\"dropdown-item\" href=\"undercons.html\">Japán</a></li>\n                <li><a class=\"dropdown-item\" href=\"celtic.html\">Kelta</a></li>\n                <li><a class=\"dropdown-item\" href=\"chinese.html\">Kínai</a></li>\n                <li><a class=\"dropdown-item\" href=\"undercons.html\">Római</a></li>\n                <li><a class=\"dropdown-item\" href=\"norse.html\">Skandináv</a></li>\n                <li><a class=\"dropdown-item\" href=\"undercons.html\">Szláv</a></li>\n            </ul>\n        </div>\n        </li>\n        <li class=\"nav-item menu-lg\">  <! rólunk menü>\n            <a class=\"nav-link\" href=\"undercons.html\">Rólunk </a>\n        </li>\n    </ul>\n    <div class=\"row header\">    <! row: a grid kezdete>\n        <div class=\"col-lg-6 justify-content-center align-self-center headtitle\">  <! grid - első 6 oszlop (col)>\n            <h1 >Mitológiai<br>Enciklopédia</h1>\n            <p class=\"texthidden subtitle\" style=\"width: 70%\"> Fedezze fel az ősi civilizációk isteneit, istennőit, mítoszait, legendáit és kozmológiáját</p>\n        </div>\n        <div class=\"col-lg-6\" > <! grid - következő 6 oszlop (col)>\n            <img class=\"img-fluid\"  src=\"mythopedia.png\" >\n        </div>\n\n\n    </div>\n</div>\n<div class=\"content\">\n<div class=\"scrollmenu\">\n    <a href=\"undercons.html\"><img src=\"mythopedia-aztec-mythology.png\"> <br> Azték</a>\n    <a href=\"undercons.html\"> <img src=\"mythopedia-egyptian-mythology.png\"> <br>Egyiptomi</a>\n    <a href=\"undercons.html\"> <img src=\"mythopedia-greek-mythology.png\"><br> Görög</a>\n    <a href=\"undercons.html\"> <img src=\"mythopedia-japanese-mythology.png\"><br> Japán</a>\n    <a href=\"celtic.html\"> <img src=\"mythopedia-celtic-mythology.png\"> <br>Kelta</a>\n    <a href=\"chinese.html\"> <img src=\"mythopedia-chinese-mythology.png\"><br> Kínai</a>\n    <a href=\"undercons.html\"> <img src=\"mythopedia-roman-mythology.png\"><br> Római</a>\n    <a href=\"norse.html\"> <img src=\"mythopedia-norse-mythology.png\"><br> Skandináv</a>\n\n</div>\n\n<div class=\"title\">\n\n    <h2>Az Antik Világ </h2>\n    <h4> </h4>\n\n</div>\n\n<div class=\"cultures\">\n\n    <div class=\"lg.round.img row\">\n        <div class=\"col-sm-4 large-img\"> <img class=\"lg-rounded-img1\" src=\"celtic-mythology-smaller.jpg\"> <br> <p> Kelta </p></div>\n        <div class=\"col-sm-4 large-img\"> <img class=\"lg-rounded-img1\" src=\"chinese-mythology-dragons-in-clouds-zhou-xun.jpg\"><br> <p> Kínai </p></div>\n        <div class=\"col-sm-4 large-img\"> <img class=\"lg-rounded-img1\" src=\"norse-mythology-the-wild-hunt-of-odin-peter-nicolai-arbo-1872.jpg\"><br> <p> Skandináv </p></div>\n    </div>\n\n    <div class=\"lg.round.img row\">\n        <div class=\"col-sm-4 large-img\"> <img class=\"lg-rounded-img\" src=\"celtic-mythology-smaller.jpg\"> <br> <p> Kelta </p></div>\n        <div class=\"col-sm-4 large-img\"> <img class=\"lg-rounded-img\" src=\"chinese-mythology-dragons-in-clouds-zhou-xun.jpg\"><br> <p> Kínai </p></div>\n        <div class=\"col-sm-4 large-img\"> <img class=\"lg-rounded-img\" src=\"norse-mythology-the-wild-hunt-of-odin-peter-nicolai-arbo-1872.jpg\"><br> <p> Skandináv </p></div>\n    </div>\n\n    <div class=\"sm.round.img row\">\n        <div class=\"col-sm-4 col-lg-2 small-img\"> <img src=\"aztec-mythology-statue-of-xochipilli-sm.jpg\"><br> <h3> Azték </h3></div>   <! small képernyő felett egymás mellett 3 jelenik meg, large képernyő felett 6 jelenik meg egymás mellett>\n        <div class=\"col-sm-4 col-lg-2 small-img\"> <img src=\"egyptian-mythology-osiris-statuette-the-met-sm.jpg\"><br> <h3> Egyiptomi </h3></div>\n        <div class=\"col-sm-4 col-lg-2 small-img\"> <img src=\"greek-mythology-laocoon-and-his-sons.jpg\"><br> <h3> Görög </h3></div>\n        <div class=\"col-sm-4 col-lg-2 small-img\"> <img src=\"hindu-mythology-durga-as-slayer-of-the-buffalo-demon-mahishasura.jpg\"><br> <h3> Hindu </h3></div>\n        <div class=\"col-sm-4 col-lg-2 small-img\"> <img src=\"japanese-mythology-earth-spider-monsters-utagawa-kuniyoshi_copy.jpg\"><br> <h3> Japán </h3></div>\n        <div class=\"col-sm-4 col-lg-2 small-img\"> <img src=\"roman-mythology-mars-statue.jpg\" > <br> <h3> Római </h3></div>\n    </div>\n    <svg viewBox=\"0 0 32 32\" width=\"16px\" height=\"16px\" xmlns=\"http://www.w3.org/2000/svg\" class=\"sc-1uo8m52-0 jjdztN\"><path fill=\"currentColor\" d=\"M32 26.585 19.666 5.221 17.22 9.458 12.337 1 0 22.367h4.881L0 30.823h24.673l-2.446-4.238H32zm-1.69-.975H9.02l4.746-8.22.449.776-3.849 6.667h18.599l-9.3-16.107-3.875 6.711-.448-.776 4.324-7.489L30.31 25.61zm-10.364 2.483H4.726l3.307-5.726h1.733l-2.435 4.218h11.745l.87 1.508zm-7.61-18.638L6.457 19.639h-1.73l7.61-13.181 3.307 5.729-.865 1.498-2.443-4.23zm0 1.951 4.753 8.233h-.898l-3.854-6.677-3.855 6.677h-.898l4.752-8.233zm.58 10.961h3.724l.86 1.49h-5.444l.86-1.49zm5.71 1.49-.86-1.49h.899l.86 1.49h-.898zm2.026 0-.86-1.49h4.881l-5.879-10.181.872-1.51 7.61 13.181h-6.624zm-2.42-10.696 4.752 8.23h-9.505l.449-.777h7.708l-3.854-6.675.45-.778zm-3.167 6.478h-.574l.287-.497.287.497zm2.154-4.725 2.727 4.725h-1.73l-1.862-3.226.865-1.499zm-4.883 0 .867 1.5-1.861 3.225H9.608l2.728-4.726zm0-11.963 4.32 7.482-.449.778-3.87-6.704-9.3 16.107h7.741l-.449.778H1.69l10.647-18.44zm10.647 26.896H1.69l4.319-7.48h.898l-3.87 6.703h18.6l-1.435-2.484h.898l1.883 3.262z\"></path></svg>\n        <path fill=\"currentColor\" d=\"M32 26.585 19.666 5.221 17.22 9.458 12.337 1 0 22.367h4.881L0 30.823h24.673l-2.446-4.238H32zm-1.69-.975H9.02l4.746-8.22.449.776-3.849 6.667h18.599l-9.3-16.107-3.875 6.711-.448-.776 4.324-7.489L30.31 25.61zm-10.364 2.483H4.726l3.307-5.726h1.733l-2.435 4.218h11.745l.87 1.508zm-7.61-18.638L6.457 19.639h-1.73l7.61-13.181 3.307 5.729-.865 1.498-2.443-4.23zm0 1.951 4.753 8.233h-.898l-3.854-6.677-3.855 6.677h-.898l4.752-8.233zm.58 10.961h3.724l.86 1.49h-5.444l.86-1.49zm5.71 1.49-.86-1.49h.899l.86 1.49h-.898zm2.026 0-.86-1.49h4.881l-5.879-10.181.872-1.51 7.61 13.181h-6.624zm-2.42-10.696 4.752 8.23h-9.505l.449-.777h7.708l-3.854-6.675.45-.778zm-3.167 6.478h-.574l.287-.497.287.497zm2.154-4.725 2.727 4.725h-1.73l-1.862-3.226.865-1.499zm-4.883 0 .867 1.5-1.861 3.225H9.608l2.728-4.726zm0-11.963 4.32 7.482-.449.778-3.87-6.704-9.3 16.107h7.741l-.449.778H1.69l10.647-18.44zm10.647 26.896H1.69l4.319-7.48h.898l-3.87 6.703h18.6l-1.435-2.484h.898l1.883 3.262z\"></path>\n    </svg>\n\n\n\n\n</div>\n</div>\n</body>\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision d46230d8bc8625dede042d313a3cc550943601cf)
++++ b/index.html	(date 1641506709479)
+@@ -90,15 +90,9 @@
+ <div class="cultures">
+ 
+     <div class="lg.round.img row">
+-        <div class="col-sm-4 large-img"> <img class="lg-rounded-img1" src="celtic-mythology-smaller.jpg"> <br> <p> Kelta </p></div>
+-        <div class="col-sm-4 large-img"> <img class="lg-rounded-img1" src="chinese-mythology-dragons-in-clouds-zhou-xun.jpg"><br> <p> Kínai </p></div>
+-        <div class="col-sm-4 large-img"> <img class="lg-rounded-img1" src="norse-mythology-the-wild-hunt-of-odin-peter-nicolai-arbo-1872.jpg"><br> <p> Skandináv </p></div>
+-    </div>
+-
+-    <div class="lg.round.img row">
+-        <div class="col-sm-4 large-img"> <img class="lg-rounded-img" src="celtic-mythology-smaller.jpg"> <br> <p> Kelta </p></div>
+-        <div class="col-sm-4 large-img"> <img class="lg-rounded-img" src="chinese-mythology-dragons-in-clouds-zhou-xun.jpg"><br> <p> Kínai </p></div>
+-        <div class="col-sm-4 large-img"> <img class="lg-rounded-img" src="norse-mythology-the-wild-hunt-of-odin-peter-nicolai-arbo-1872.jpg"><br> <p> Skandináv </p></div>
++        <div class="col-sm-4 large-img"> <img class="lg-rounded-img" src="celtic-mythology-smaller.jpg"> <br> <h3> Kelta </h3></div>
++        <div class="col-sm-4 large-img"> <img class="lg-rounded-img" src="chinese-mythology-dragons-in-clouds-zhou-xun.jpg"><br> <h3> Kínai </h3></div>
++        <div class="col-sm-4 large-img"> <img class="lg-rounded-img" src="norse-mythology-the-wild-hunt-of-odin-peter-nicolai-arbo-1872.jpg"><br> <h3> Skandináv </h3></div>
+     </div>
+ 
+     <div class="sm.round.img row">
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"b58f20bd-26f0-4454-a0ab-e56b458d83c1\" name=\"Changes\" comment=\"norse.html képek nélkül\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/norse.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/norse.html\" afterDir=\"false\" />\n    </list>\n    <list id=\"feaf54eb-4085-47b2-9782-79dbf0ca3756\" name=\"Changes by amartain\" comment=\"index.html images\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ComposerSettings\">\n    <execution />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"CSS File\" />\n        <option value=\"HTML File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"22P794aFLFVtH174dzMHnlE4EIc\" />\n  <component name=\"ProjectLevelVcsManager\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"list.type.of.created.stylesheet\" value=\"CSS\" />\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"b58f20bd-26f0-4454-a0ab-e56b458d83c1\" name=\"Changes\" comment=\"index.html html done until header\" />\n      <created>1639727217370</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1639727217370</updated>\n      <workItem from=\"1639727218398\" duration=\"17000\" />\n      <workItem from=\"1639830153751\" duration=\"39000\" />\n      <workItem from=\"1639830233913\" duration=\"2095000\" />\n      <workItem from=\"1640022862718\" duration=\"307000\" />\n      <workItem from=\"1641395637188\" duration=\"380000\" />\n      <workItem from=\"1641483322146\" duration=\"1240000\" />\n      <workItem from=\"1641490556264\" duration=\"37000\" />\n      <workItem from=\"1641490594197\" duration=\"10778000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"index.html header &quot;bootstrap&quot;-elve\">\n      <created>1640023025174</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1640023025174</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"alap html kész\">\n      <created>1641310853256</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1641310853256</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"index.html images\">\n      <created>1641481637849</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1641481637849</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"images added\">\n      <created>1641483476514</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1641483476514</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"hamburgermenu: index.html, celtic.html&#10;celtic.html almost done\">\n      <created>1641501331423</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1641501331423</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"hamburgermenu: index.html, celtic.html&#10;celtic.html almost done\">\n      <created>1641501397319</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1641501397319</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"hamburgermenu: norse.html, chinese.html\">\n      <created>1641501575421</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1641501575421</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"8\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"index.html header &quot;bootstrap&quot;-elve\" />\n    <MESSAGE value=\"alap html kész\" />\n    <MESSAGE value=\"css elkezdve\" />\n    <MESSAGE value=\"index.html images\" />\n    <MESSAGE value=\"images added\" />\n    <MESSAGE value=\"hamburgermenu: index.html, celtic.html&#10;celtic.html almost done\" />\n    <MESSAGE value=\"hamburgermenu: norse.html, chinese.html\" />\n    <MESSAGE value=\"norse.html képek nélkül\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"norse.html képek nélkül\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision d46230d8bc8625dede042d313a3cc550943601cf)
++++ b/.idea/workspace.xml	(date 1641506866123)
+@@ -4,9 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="norse.html képek nélkül">
++    <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="hamburgermenu: norse.html, chinese.html">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/norse.html" beforeDir="false" afterPath="$PROJECT_DIR$/norse.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+     </list>
+     <list id="feaf54eb-4085-47b2-9782-79dbf0ca3756" name="Changes by amartain" comment="index.html images" />
+     <option name="SHOW_DIALOG" value="false" />
+@@ -143,7 +144,6 @@
+     <MESSAGE value="images added" />
+     <MESSAGE value="hamburgermenu: index.html, celtic.html&#10;celtic.html almost done" />
+     <MESSAGE value="hamburgermenu: norse.html, chinese.html" />
+-    <MESSAGE value="norse.html képek nélkül" />
+-    <option name="LAST_COMMIT_MESSAGE" value="norse.html képek nélkül" />
++    <option name="LAST_COMMIT_MESSAGE" value="hamburgermenu: norse.html, chinese.html" />
+   </component>
+ </project>
+\ No newline at end of file

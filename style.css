@@ -258,11 +258,8 @@ td{
     transition: all 0.45s
 }
 
-
+/*EHHEZ NE GYÚLJ HOZZÁ*/
 .lg-rounded-img {
-    position: relative;
-    top: 50%;
-    left: 50%;
     margin: 0px auto;
     display: inline-block;
     border-radius: 7.5rem;
