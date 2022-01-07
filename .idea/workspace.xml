@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="morrigan.html done" />
     <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="Revert &quot;style, index&quot;&#10;&#10;This reverts commit 3bd71148">
       <change afterPath="$PROJECT_DIR$/save_kamilla.css" afterDir="false" />
     <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="index.html merge javítva">
@@ -78,6 +79,7 @@
       <workItem from="1641483322146" duration="1240000" />
       <workItem from="1641490556264" duration="37000" />
       <workItem from="1641490594197" duration="10778000" />
+      <workItem from="1641538965985" duration="9166000" />
       <workItem from="1641538965985" duration="8861000" />
       <workItem from="1641539260273" duration="1079000" />
       <workItem from="1641540647563" duration="5044000" />
@@ -179,8 +181,6 @@
       <updated>1641541967187</updated>
     </task>
     <option name="localTasksCounter" value="13" />
-    <option name="localTasksCounter" value="9" />
-    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +216,7 @@
     <MESSAGE value="style.css merge javítva" />
     <MESSAGE value="index.html merge javítva" />
     <MESSAGE value="norse.html, celtic.html merge javítva" />
-    <option name="LAST_COMMIT_MESSAGE" value="norse.html, celtic.html merge javítva" />
+    <MESSAGE value="morrigan.html done" />
+    <option name="LAST_COMMIT_MESSAGE" value="morrigan.html done" />
   </component>
 </project>
