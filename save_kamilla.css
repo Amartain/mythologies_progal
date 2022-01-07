@@ -70,26 +70,6 @@ body {
     text-align: justify;
 
 }
-/* ANITA CSS */
-.burgermenu{
-    display: none;
-}
-.menu-lg{
-    display: block;
-}
-.dropdown-menu{
-    background-color: #FFCE33;
-}
-.dropdown-menu a:hover{
-    color: white;
-    background-color: unset;
-}
-.dropdown-item{
-    color: rgb(18, 52, 63);
-    font-size: 1.35rem;
-    width: 8rem;
-}
-/* ANITA CSS */
 
 @media (min-width: 992px){
     .texthidden{
@@ -109,34 +89,7 @@ body {
         display: block;
         margin: 0 auto;
     }
-    .burgermenu{
-        display: block;
-    }
-    .dropdown-menu{
-        background-color: rgb(18, 52, 63);
-        color: white;
-    }
-    .dropdown-menu{
-        background-color: #FFCE33;
-    }
-    .dropdown-menu a:hover{
-        color: white;
-        background-color: unset;
-    }
-    .dropdown-item{
-        color: rgb(18, 52, 63);
-        font-size: 1.35rem;
-        width: 8rem;
-    }
-
-    .menu-lg{
-        display: none;
-    }
-    .container-fluid{
-        padding: 0.5% 5%;
-    }
 }
-
 @media (max-width: 1300px){
     h1{
         font-size: 4.25rem;
@@ -260,17 +213,18 @@ td{
 
 
 .lg-rounded-img {
+    position: relative;
+    top: 50%;
+    left: 50%;
     margin: 0px auto;
     display: inline-block;
     border-radius: 7.5rem;
-    max-width: 80%;
 
 }
 
 .large-img {
     padding: 1.5rem;
     aspect-ratio: 123 / 150;
-    text-align: center;
 }
 
 .alt-bgc {
@@ -341,47 +295,3 @@ br {
 .border-top {
     border-top: 0.0625rem solid rgb(211, 217, 219);
 }
-
-
-/*ANITA CSS*/
-
-.small-img img{
-    max-width: 90%;
-    border-radius: 50%;
-}
-.small-img{
-    text-align: center;
-    margin-top: 10%;
-}
-
-.burger{
-    color: white;
-}
-
-/*ANITA CSS*/
-
-/* KAMILLA CSS */
-
- .circle-img {
-     width: 7rem;
-     height: 7rem;
- }
-
- #bg-undercons {
-     background-color: rgb(252, 250, 245);
-     font-family: "Liberation Sans";
- }
-
- .txt-lg {
-     font-size: 4rem;
- }
-
- .txt-mdlg {
-     font-size: 2.5rem;
- }
-
-.txt-mdlg a:hover {
-    color: rgb(255, 199, 44);
-}
-
-/* KAMILLA CSS */
