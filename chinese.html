@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Kínai Mitológia </title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.css" rel="stylesheet">   <! bootstrap style belinkelése, ha nem akarjuk letölteni>
+    <script src="img/https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> <! javasript>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="container-fluid backgroundc">   <! teljes szélességű container, bármekkora is a kijelző>
+    <ul class="navbar nav">    <! navigációs sáv https://www.w3schools.com/bootstrap5/bootstrap_navbar.php>
+        <li class="nav-item">   <! logo, név>
+            <a class="logo" href="index.html"><img class="logo-img" src="img/favicon.png"> MITHOPÉDIA </a>
+        </li>
+        <li class="nav-item burgermenu">   <! hamburger menü>
+            <div class="btn-group dropstart">
+                <button type="button" class="btn" data-bs-toggle="dropdown"><svg viewBox="0 0 16 16" width="16" height="16" xmlns="http://www.w3.org/2000/svg" class="sc-1uo8m52-0 dxxNML burger"><rect x="4" y="4" width="12" height="1.1" fill="currentColor"></rect><rect x="0" y="8" width="16" height="1.1" fill="currentColor"></rect><rect x="8" y="12" width="8" height="1.1" fill="currentColor"></rect></svg></button>
+                <ul class="dropdown-menu">  <! almenü>
+                    <li><a class="dropdown-item" href="undercons.html">Azték</a></li>
+                    <li><a class="dropdown-item" href="undercons.html">Egyiptomi</a></li>
+                    <li><a class="dropdown-item" href="undercons.html">Görög</a></li>
+                    <li><a class="dropdown-item" href="undercons.html">Hindu</a></li>
+                    <li><a class="dropdown-item" href="undercons.html">Japán</a></li>
+                    <li><a class="dropdown-item" href="celtic.html">Kelta</a></li>
+                    <li><a class="dropdown-item" href="chinese.html">Kínai</a></li>
+                    <li><a class="dropdown-item" href="undercons.html">Római</a></li>
+                    <li><a class="dropdown-item" href="norse.html">Skandináv</a></li>
+                    <li><a class="dropdown-item" href="undercons.html">Szláv</a></li>
+                    <li><a class="dropdown-item" href="undercons.html">Rólunk </a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="nav-item menu-lg">   <! dropdown menü>
+            <div class="btn-group">
+                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">Mitológiák</button> <! ehhez sztem kell js, szoval máshogy kellene megcsinálni>
+                <ul class="dropdown-menu">  <! almenü>
+                    <li><a class="dropdown-item" href="undercons.html">Azték</a></li>
+                    <li><a class="dropdown-item" href="undercons.html">Egyiptomi</a></li>
+                    <li><a class="dropdown-item" href="undercons.html">Görög</a></li>
+                    <li><a class="dropdown-item" href="undercons.html">Hindu</a></li>
+                    <li><a class="dropdown-item" href="undercons.html">Japán</a></li>
+                    <li><a class="dropdown-item" href="celtic.html">Kelta</a></li>
+                    <li><a class="dropdown-item" href="chinese.html">Kínai</a></li>
+                    <li><a class="dropdown-item" href="undercons.html">Római</a></li>
+                    <li><a class="dropdown-item" href="norse.html">Skandináv</a></li>
+                    <li><a class="dropdown-item" href="undercons.html">Szláv</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="nav-item menu-lg">  <! rólunk menü>
+            <a class="nav-link" href="#">Rólunk </a>
+        </li>
+    </ul>
+    <div class="row header ">    <! row: a grid kezdete, egy sor, ez tartalmaz 12 oszlopot, amiket elosztunk 6-6 nak: https://www.w3schools.com/bootstrap5/bootstrap_grid_basic.php>
+        <div class="col-lg-6 justify-content-center align-self-center headtitle">  <! grid - első 6 oszlop (col)>
+            <h1 >Kínai <br> Mitológia</h1>
+            <p class="texthidden subtitle"> Kína különböző régióinak, korszakainak és népeinek mitológiai hagyományai.</p>
+        </div>
+        <div class="col-lg-6" > <! grid - következő 6 oszlop (col)>
+
+            <img class="img-fluid"  src="img/mythopedia-chinese-mythology_lg.png" >
+        </div>
+
+
+    </div>
+</div>
+
+<div class="content">
+    <p class="md-txt padding-lg">A kínai mitológia a folklór, a történelem és a vallási hit széles skáláját öleli fel számos időszakra és népre vonatkozóan, beleértve a jelenkort is. E mítoszok közül sok bonyolultan kötődik a filozófiához, a valláshoz, a hagyományokhoz és a társadalomhoz.</p>
+
+
+    <h3 class="bold font-md">Kínai Panteon</h3>
+
+    <table class="our-table md-txt padding-lg">
+        <tr>
+            <td colspan="2"><p class="bold">Bixia</p><p> A termékenység kínai istennője, a gyermekek és az anyák gyámja. </p></td>
+        </tr>
+        <tr>
+            <td colspan="2"><p class="bold">Caishen</p><p> A gazdagság és a pénz kínai istene, akinek gyermeke a vasat arannyá változtatja. </p></td>
+
+        </tr>
+        <tr>
+            <td colspan="2"><p class="bold">Cangjie</p><p>A kínai írásrendszer megteremtéséért tisztelt kulturális hős.  </p></td>
+
+        </tr>
+        <tr>
+        <td> <p class="bold ">Cangjie</p><p>A kínai írásrendszer megteremtéséért tisztelt kulturális hős.  </p></td>
+            <td class="sm-img-container "><img class ="rounded-circle circle-img" src="img/chang-e-chinese-goddess-of-the-moon.jpg" > </td>
+        </tr>
+        <tr>
+            <td> <a href="8immortals.html"><p class="bold ">A nyolc halhatatlan </p></a><p>Legendás kínai hősök, akik az igazságért küzdenek és legyőzik a gonoszt.  </p></td>
+        <td class="sm-img-container"><img class ="rounded-circle circle-img" src="img/eight-immortals-chinese-legendary-heroes.jpg" > </td>
+        </tr>
+
+
+
+        <tr>
+            <td colspan="2"><p class="bold">Changxi</p><p> Holdistennő a kínai mitológiában, a tizenkét hold anyja. </p></td>
+        </tr>
+
+        <tr>
+            <td colspan="2"><p class="bold">Di Jun</p><p> Holdistennő a kínai mitológiában, a tizenkét hold anyja. </p></td>
+        </tr>
+
+        <tr>
+            <td colspan="2"><p class="bold">Dianmu</p><p> Ősi kínai császár, mind a napistennő és a holdistennő férje. </p></td>
+        </tr>
+
+        <tr>
+            <td colspan="2"><p class="bold">Doumu</p><p> A villámlás kínai istennője, Lei Gong mennydörgés isten felesége </p></td>
+        </tr>
+
+        <td> <a href="undercons.html"><p class="bold ">A Sárkány Király </p></a><p>A „Sárkánykirály”, minden víz, az időjárás és a sárkányok istene a kínai mitológiában.  </p></td>
+        <td class="sm-img-container"><img class ="rounded-circle circle-img" src="img/dragon-king-chinese-god-of-the-four-seas.jpg" > </td>
+        </tr>
+
+        <td> <a href="undercons.html"><p class="bold "> Fuxi </p></a><p> Az emberiség eredeti őse a kínai mitológiában, Nuwa férje. </p></td>
+        <td class="sm-img-container"><img class ="rounded-circle circle-img" src="img/fuxi-chinese-creator-of-mankind.jpg" > </td>
+        </tr>
+
+        <td> <a href="undercons.html"><p class="bold "> Guanyin </p></a><p> Az irgalmasság jóindulatú kínai istennője, akit a szenvedés idején hívnak. </p></td>
+        <td class="sm-img-container"><img class ="rounded-circle circle-img" src="img/guanyin-chinese-goddess-of-mercy.jpg" > </td>
+        </tr>
+
+        <td> <a href="undercons.html"><p class="bold "> A Jáde Császár </p></a><p>  A mennyország legfőbb uralkodója a kínai mitológiában, Kína első császára. </p></td>
+        <td class="sm-img-container"><img class ="rounded-circle circle-img" src="img/jade-emperor-chinese-ruler-of-heaven.jpg" > </td>
+        </tr>
+
+        <tr>
+            <td colspan="2"><p class="bold">Ji Gong</p><p>  Az „őrült szerzetes”, a kínai népi hős, a szegények és elnyomottak bajnoka. </p></td>
+        </tr>
+
+        Az „őrült szerzetes”, a kínai népi hős, a szegények és elnyomottak bajnoka
+
+
+    </table>
+
+</div>
+
+<div class="btn-home md-txt bold border-top"> <a class="txt-ctr" href="index.html" > << Vissza a Főoldalra >> </a> </div>
+
+</body>

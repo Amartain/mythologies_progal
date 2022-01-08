@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="025cab7f-81ac-49d1-9001-de6c7b38a193" name="Changes" comment="" />
+    <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="norse.html kész">
+      <change afterPath="$PROJECT_DIR$/norse_al.html" afterDir="false" />
+    <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="morrigan.html done" />
+    <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="Revert &quot;style, index&quot;&#10;&#10;This reverts commit 3bd71148">
+      <change afterPath="$PROJECT_DIR$/save_kamilla.css" afterDir="false" />
+    <list default="true" id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="index.html merge javítva">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8immortals.html" beforeDir="false" afterPath="$PROJECT_DIR$/8immortals.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/celtic.html" beforeDir="false" afterPath="$PROJECT_DIR$/celtic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinese.html" beforeDir="false" afterPath="$PROJECT_DIR$/chinese.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/norse.html" beforeDir="false" afterPath="$PROJECT_DIR$/norse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/undercons.html" beforeDir="false" afterPath="$PROJECT_DIR$/undercons.html" afterDir="false" />
+    </list>
+    <list id="feaf54eb-4085-47b2-9782-79dbf0ca3756" name="Changes by amartain" comment="index.html images" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,17 +32,19 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="KEEP" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
-  <component name="ProjectId" id="22MtYp220gGmklsw2GZujR4TfQp" />
+  <component name="ProjectId" id="22P794aFLFVtH174dzMHnlE4EIc" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -36,66 +53,173 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mythologies_progal (copy)" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="CodeWithMe" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../mythologies" />
-    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="025cab7f-81ac-49d1-9001-de6c7b38a193" name="Changes" comment="" />
-      <created>1639659333328</created>
+      <changelist id="b58f20bd-26f0-4454-a0ab-e56b458d83c1" name="Changes" comment="index.html html done until header" />
+      <created>1639727217370</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1639659333328</updated>
-      <workItem from="1639659334752" duration="47000" />
-      <workItem from="1639659382869" duration="3842000" />
-      <workItem from="1639663246247" duration="27000" />
+      <updated>1639727217370</updated>
+      <workItem from="1639727218398" duration="17000" />
+      <workItem from="1639830153751" duration="39000" />
+      <workItem from="1639830233913" duration="2095000" />
+      <workItem from="1640022862718" duration="307000" />
+      <workItem from="1641395637188" duration="380000" />
+      <workItem from="1641483322146" duration="1240000" />
+      <workItem from="1641490556264" duration="37000" />
+      <workItem from="1641490594197" duration="10778000" />
+      <workItem from="1641538965985" duration="9166000" />
+      <workItem from="1641538965985" duration="8861000" />
+      <workItem from="1641539260273" duration="1079000" />
+      <workItem from="1641540647563" duration="5044000" />
+      <workItem from="1641483322146" duration="1240000" />
+      <workItem from="1641490556264" duration="37000" />
+      <workItem from="1641490594197" duration="10778000" />
+      <workItem from="1641538965985" duration="2908000" />
+      <workItem from="1641548907954" duration="793000" />
     </task>
-    <task id="LOCAL-00001" summary="index.html added">
-      <created>1639659800090</created>
+    <task id="LOCAL-00001" summary="index.html header &quot;bootstrap&quot;-elve">
+      <created>1640023025174</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1639659800090</updated>
+      <updated>1640023025174</updated>
     </task>
-    <task id="LOCAL-00002" summary="index.html html done until header">
-      <created>1639663261537</created>
+    <task id="LOCAL-00002" summary="alap html kész">
+      <created>1641310853256</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1639663261537</updated>
+      <updated>1641310853256</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="index.html images">
+      <created>1641481637849</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1641481637849</updated>
+    </task>
+    <task id="LOCAL-00004" summary="images added">
+      <created>1641483476514</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1641483476514</updated>
+    </task>
+    <task id="LOCAL-00005" summary="hamburgermenu: index.html, celtic.html&#10;celtic.html almost done">
+      <created>1641501331423</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1641501331423</updated>
+    </task>
+    <task id="LOCAL-00006" summary="hamburgermenu: index.html, celtic.html&#10;celtic.html almost done">
+      <created>1641501397319</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1641501397319</updated>
+    </task>
+    <task id="LOCAL-00007" summary="hamburgermenu: norse.html, chinese.html">
+      <created>1641501575421</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1641501575421</updated>
+    </task>
+    <task id="LOCAL-00008" summary="style, index">
+      <created>1641507118273</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1641507118273</updated>
+      <updated>1641501575421</updated>
+    </task>
+    <task id="LOCAL-00008" summary="style, index">
+      <created>1641507118273</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1641507118273</updated>
+    </task>
+    <task id="LOCAL-00009" summary="style, index">
+      <created>1641507660882</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1641507660882</updated>
+    </task>
+    <task id="LOCAL-00010" summary="style.css merge javítva">
+      <created>1641540797780</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1641540797780</updated>
+    </task>
+    <task id="LOCAL-00011" summary="index.html merge javítva">
+      <created>1641541233000</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1641541233000</updated>
+    </task>
+    <task id="LOCAL-00012" summary="norse.html, celtic.html merge javítva">
+      <created>1641541967187</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1641541967187</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="index.html added" />
-    <MESSAGE value="index.html html done until header" />
-    <option name="LAST_COMMIT_MESSAGE" value="index.html html done until header" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="index.html header &quot;bootstrap&quot;-elve" />
+    <MESSAGE value="alap html kész" />
+    <MESSAGE value="css elkezdve" />
+    <MESSAGE value="index.html images" />
+    <MESSAGE value="images added" />
+    <MESSAGE value="hamburgermenu: index.html, celtic.html&#10;celtic.html almost done" />
+    <MESSAGE value="hamburgermenu: norse.html, chinese.html" />
+    <MESSAGE value="norse.html képek nélkül" />
+    <MESSAGE value="style, index" />
+    <option name="LAST_COMMIT_MESSAGE" value="style, index" />
+    <MESSAGE value="images added" />
+    <MESSAGE value="hamburgermenu: index.html, celtic.html&#10;celtic.html almost done" />
+    <MESSAGE value="hamburgermenu: norse.html, chinese.html" />
+    <MESSAGE value="norse.html képek nélkül" />
+    <MESSAGE value="style, index" />
+    <MESSAGE value="style.css merge javítva" />
+    <MESSAGE value="index.html merge javítva" />
+    <MESSAGE value="norse.html, celtic.html merge javítva" />
+    <MESSAGE value="morrigan.html done" />
+    <option name="LAST_COMMIT_MESSAGE" value="morrigan.html done" />
   </component>
 </project>

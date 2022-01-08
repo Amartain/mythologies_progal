@@ -1,0 +1,57 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"hu\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Mitológiák </title>\n    <link rel=\"icon\" type=\"image/png\" href=\"favicon.png\">\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.css\" rel=\"stylesheet\">   <! bootstrap style belinkelése, ha nem akarjuk letölteni>\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js\"></script> <! javasript>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n</head>\n<body>\n\n<div class=\"container-fluid\">   <! teljes szélességű container, bármekkora is a kijelző>\n    <ul class=\"navbar nav\">    <! navigációs sáv https://www.w3schools.com/bootstrap5/bootstrap_navbar.php>\n        <li class=\"nav-item\">   <! logo, név>\n            <a class=\"logo\"><img class=\"logo-img\" src=\"favicon.png\"> Mithopédia </a>\n        </li>\n        <li class=\"nav-item\">   <! dropdown menü>\n            <div class=\"btn-group\">\n                <button type=\"button\" class=\"btn dropdown-toggle\" data-bs-toggle=\"dropdown\">Mitológiák</button> <! ehhez sztem kell js, szoval máshogy kellene megcsinálni>\n                <ul class=\"dropdown-menu\">  <! almenü>\n                    <li><a class=\"dropdown-item\" href=\"#\">Azték</a></li>\n                    <li><a class=\"dropdown-item\" href=\"#\">Egyiptomi</a></li>\n                    <li><a class=\"dropdown-item\" href=\"#\">Görög</a></li>\n                    <li><a class=\"dropdown-item\" href=\"#\">Hindu</a></li>\n                    <li><a class=\"dropdown-item\" href=\"#\">Japán</a></li>\n                    <li><a class=\"dropdown-item\" href=\"#\">Kelta</a></li>\n                    <li><a class=\"dropdown-item\" href=\"#\">Kínai</a></li>\n                    <li><a class=\"dropdown-item\" href=\"#\">Római</a></li>\n                    <li><a class=\"dropdown-item\" href=\"#\">Skandináv</a></li>\n                    <li><a class=\"dropdown-item\" href=\"#\">Szláv</a></li>\n                </ul>\n            </div>\n        </li>\n        <li class=\"nav-item\">  <! rólunk menü>\n            <a class=\"nav-link\" href=\"#\">Rólunk </a>\n        </li>\n    </ul>\n    <div class=\"row header\">    <! row: a grid kezdete, egy sor, ez tartalmaz 12 oszlopot, amiket elosztunk 6-6 nak: https://www.w3schools.com/bootstrap5/bootstrap_grid_basic.php>\n        <div class=\"col-sm-6\">  <! grid - első 6 oszlop (col)>\n            <h1>Mitológiai <br>Enciklopédia</h1>\n        </div>\n        <div class=\"col-sm-6\" > <! grid - következő 6 oszlop (col)>\n            <img class=\"index-img\"  src=\"mythopedia.png\">\n        </div>\n    </div>\n</div>\n\n\n\n</body>\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision e011d776bb70f0d756b6c27021cb2ed02bb8d9ec)
++++ b/index.html	(date 1641393080022)
+@@ -48,5 +48,45 @@
+ 
+ 
+ 
++<div class="scrollmenu">
++    <a href="#home"><img src="mythopedia-aztec-mythology.png"> <br> Azték</a>
++    <a href="#news"> <img src="mythopedia-egyptian-mythology.png"> <br>Egyiptomi</a>
++    <a href="#contact"> <img src="mythopedia-greek-mythology.png"><br> Görög</a>
++    <a href="#support"> <img src="mythopedia-japanese-mythology.png"><br> Japán</a>
++    <a href="#blog"> <img src="mythopedia-celtic-mythology.png"> <br>Kelta</a>
++    <a href="#tools"> <img src="mythopedia-chinese-mythology.png"><br> Kínai</a>
++    <a href="#base"> <img src="mythopedia-roman-mythology.png"><br> Római</a>
++    <a href="#custom"> <img src="mythopedia-norse-mythology.png"><br> Skandináv</a>
++
++</div>
++
++<div class="title">
++
++    <h2>Az Antik Világ </h2>
++    <h4> </h4>
++
++</div>
++
++<div class="cultures">
++    <div class="lg.round.img row">
++        <div class="col-sm-4"> <img src="celtic-mythology.jpg"> <h3> Kelta </h3></div>
++        <div class="col-sm-4"> <img src="chinese-mythology-dragons-in-clouds-zhou-xun.jpg"> <h3> Kínai </h3></div>
++        <div class="col-sm-4"> <img src="norse-mythology-the-wild-hunt-of-odin-peter-nicolai-arbo-1872.jpg"> <h3> Skandináv </h3></div>
++
++    </div>
++
++    <div class="sm.round.img row">
++        <div class="col-sm-4 col-lg-2">   <h3> Azték </h3></div>   <! small képernyő felett egymás mellett 3 jelenik meg, large képernyő felett 6 jelenik meg egymás mellett>
++        <div class="col-sm-4 col-lg-2"> <img src="egyptian-mythology-osiris-statuette-the-met.jpg"> <h3> Egyiptomi </h3></div>
++        <div class="col-sm-4 col-lg-2"> <img src="greek-mythology-laocoon-and-his-sons.jpg"> <h3> Görög </h3></div>
++        <div class="col-sm-4 col-lg-2"> <img src="hindu-mythology-durga-as-slayer-of-the-buffalo-demon-mahishasura.jpg"> <h3> Hindu </h3></div>
++        <div class="col-sm-4 col-lg-2"> <img src="japanese-mythology-earth-spider-monsters-utagawa-kuniyoshi_copy.jpg"> <h3> Japán </h3></div>
++        <div class="col-sm-4 col-lg-2"> <img src="roman-mythology-mars-statue.jpg" >  <h3> Római </h3></div>
++    </div>
++    <svg viewBox="0 0 32 32" width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" class="sc-1uo8m52-0 jjdztN"><path fill="currentColor" d="M32 26.585 19.666 5.221 17.22 9.458 12.337 1 0 22.367h4.881L0 30.823h24.673l-2.446-4.238H32zm-1.69-.975H9.02l4.746-8.22.449.776-3.849 6.667h18.599l-9.3-16.107-3.875 6.711-.448-.776 4.324-7.489L30.31 25.61zm-10.364 2.483H4.726l3.307-5.726h1.733l-2.435 4.218h11.745l.87 1.508zm-7.61-18.638L6.457 19.639h-1.73l7.61-13.181 3.307 5.729-.865 1.498-2.443-4.23zm0 1.951 4.753 8.233h-.898l-3.854-6.677-3.855 6.677h-.898l4.752-8.233zm.58 10.961h3.724l.86 1.49h-5.444l.86-1.49zm5.71 1.49-.86-1.49h.899l.86 1.49h-.898zm2.026 0-.86-1.49h4.881l-5.879-10.181.872-1.51 7.61 13.181h-6.624zm-2.42-10.696 4.752 8.23h-9.505l.449-.777h7.708l-3.854-6.675.45-.778zm-3.167 6.478h-.574l.287-.497.287.497zm2.154-4.725 2.727 4.725h-1.73l-1.862-3.226.865-1.499zm-4.883 0 .867 1.5-1.861 3.225H9.608l2.728-4.726zm0-11.963 4.32 7.482-.449.778-3.87-6.704-9.3 16.107h7.741l-.449.778H1.69l10.647-18.44zm10.647 26.896H1.69l4.319-7.48h.898l-3.87 6.703h18.6l-1.435-2.484h.898l1.883 3.262z"></path></svg>
++        <path fill="currentColor" d="M32 26.585 19.666 5.221 17.22 9.458 12.337 1 0 22.367h4.881L0 30.823h24.673l-2.446-4.238H32zm-1.69-.975H9.02l4.746-8.22.449.776-3.849 6.667h18.599l-9.3-16.107-3.875 6.711-.448-.776 4.324-7.489L30.31 25.61zm-10.364 2.483H4.726l3.307-5.726h1.733l-2.435 4.218h11.745l.87 1.508zm-7.61-18.638L6.457 19.639h-1.73l7.61-13.181 3.307 5.729-.865 1.498-2.443-4.23zm0 1.951 4.753 8.233h-.898l-3.854-6.677-3.855 6.677h-.898l4.752-8.233zm.58 10.961h3.724l.86 1.49h-5.444l.86-1.49zm5.71 1.49-.86-1.49h.899l.86 1.49h-.898zm2.026 0-.86-1.49h4.881l-5.879-10.181.872-1.51 7.61 13.181h-6.624zm-2.42-10.696 4.752 8.23h-9.505l.449-.777h7.708l-3.854-6.675.45-.778zm-3.167 6.478h-.574l.287-.497.287.497zm2.154-4.725 2.727 4.725h-1.73l-1.862-3.226.865-1.499zm-4.883 0 .867 1.5-1.861 3.225H9.608l2.728-4.726zm0-11.963 4.32 7.482-.449.778-3.87-6.704-9.3 16.107h7.741l-.449.778H1.69l10.647-18.44zm10.647 26.896H1.69l4.319-7.48h.898l-3.87 6.703h18.6l-1.435-2.484h.898l1.883 3.262z"></path>
++    </svg>
++</div>
++
+ </body>
+ </html>
+\ No newline at end of file
